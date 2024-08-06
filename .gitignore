@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore dependency directories from cloned repositories
+repos/metis-migration/node_modules/
+repos/ve-hermes-migration/node_modules/
+repos/metis-migration/lib/
+
+# Ignore consolidated output files
+consolidated_output/
+
+# Ignore any log files
+*.log
+
+# Ignore forge dependency directory
+repos/metis-migration/lib
