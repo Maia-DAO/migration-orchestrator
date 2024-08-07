@@ -25,6 +25,10 @@ node consolidate_maia_data.js
 echo "Running hermes data consolidation..."
 node consolidate_hermes_data.js
 
+# Step 7: Consolidate bHermes data
+echo "Running bHermes data consolidation..."
+node consolidate_bHermes_data.js
+
 # Step 7: Consolidate starHermes data
 echo "Running starHermes data consolidation..."
 node consolidate_starHermes_data.js

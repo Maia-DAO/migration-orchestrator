@@ -6,10 +6,13 @@ const JSBI = require('jsbi');
 const INPUT_JSONS_DIR = 'input_jsons';
 const OUTPUT_DIR = 'consolidated_output';
 const TOKEN_ADDRESS = '0xaFF73f55968Ab4b276a26E574c96e09A615b13d6'; // starHermes token address
-const results = {};
 
-// Ensure output directory exists
-fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+// Try to load existing data from hermes.json if it exists
+let results = {};
+const outputFilePath = path.join(OUTPUT_DIR, 'bHermes.json');
+if (fs.existsSync(outputFilePath)) {
+    results = JSON.parse(fs.readFileSync(outputFilePath));
+}
 
 // Read and process totals.json
 const totalsData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, 'totals.json')));
@@ -18,7 +21,10 @@ Object.keys(tokenHolders).forEach(addr => {
     if (!results[addr]) {
         results[addr] = { balance: JSBI.BigInt(0) };
     }
-    results[addr].balance = JSBI.add(results[addr].balance, JSBI.BigInt(tokenHolders[addr]));
+    if (JSBI.greaterThan(tokenHolders[addr], JSBI.BigInt(0))) {
+        results[addr]['totals.json'] = JSBI.BigInt(tokenHolders[addr]).toString()
+        results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(tokenHolders[addr])).toString();
+    }
 });
 
 // Read and process staked_balance.json
@@ -29,7 +35,10 @@ stakedData.forEach(gauge => {
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
-        results[addr].balance = JSBI.add(results[addr].balance, JSBI.BigInt(stake.stakedBalance));
+        if (JSBI.greaterThan(stake.stakedBalance, JSBI.BigInt(0))) {
+            results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(stake.stakedBalance).toString();
+            results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(stake.stakedBalance)).toString();
+        }
     });
 });
 
@@ -41,7 +50,10 @@ rewardsData.forEach(gauge => {
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
-        results[addr].balance = JSBI.add(results[addr].balance, JSBI.BigInt(reward.pendingReward));
+        if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
+            results[addr][`pending_rewards_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(reward.pendingReward).toString();
+            results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(reward.pendingReward)).toString();
+        }
     });
 });
 
@@ -53,14 +65,19 @@ bribesData.forEach(gauge => {
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
-        results[addr].balance = JSBI.add(results[addr].balance, JSBI.BigInt(reward.pendingReward));
+        if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
+            results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(reward.pendingReward).toString();
+            results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(reward.pendingReward)).toString();
+        }
     });
 });
+
 
 // Write the results to a JSON file, converting JSBI BigInts to strings for JSON serialization
 const entries = Object.keys(results).map(key => ({
     address: key,
-    balance: results[key].balance
+    balance: results[key].balance,
+    ...results[key]
 }));
 
 // Sort the entries array by balance in descending order
@@ -71,8 +88,9 @@ entries.sort((a, b) => {
 // Create a new object from the sorted entries
 const outputData = {};
 entries.forEach(entry => {
-    outputData[entry.address] = { balance: entry.balance.toString() };
+    outputData[entry.address] = { ...entry };
+    // outputData[entry.address] = { ...entry, balance: JSBI.BigInt(entry.balance) };
 });
 
-fs.writeFileSync(path.join(OUTPUT_DIR, 'starHermes.json'), JSON.stringify(outputData, null, 2));
+fs.writeFileSync(path.join(OUTPUT_DIR, 'bHermes.json'), JSON.stringify(outputData, null, 2));
 console.log('Maia data has been consolidated.');

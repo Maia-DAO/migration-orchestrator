@@ -1,4 +1,4 @@
-// consolidate_data.js
+// consolidate_airdrop_data.js
 const fs = require('fs');
 const csv = require('csv-parser');
 const path = require('path');
@@ -28,7 +28,11 @@ function processCSV(filename) {
                 }
                 try {
                     const rewardBigInt = JSBI.BigInt(reward || '0');
-                    results[addr].balance = JSBI.add(results[addr].balance, rewardBigInt);
+
+                    if (JSBI.greaterThan(rewardBigInt, JSBI.BigInt(0))) {
+                        results[addr][filename] = rewardBigInt.toString();
+                        results[addr].balance = JSBI.add(results[addr].balance, rewardBigInt);
+                    }
                 } catch (error) {
                     console.error(`Error processing data for address ${addr}:`, error);
                 }
@@ -50,11 +54,11 @@ async function consolidateData() {
 
     const outputData = {};
     Object.keys(results).forEach(addr => {
-        outputData[addr] = { balance: results[addr].balance.toString() };  // Convert BigInt to string
+        outputData[addr] = { ...results[addr], balance: results[addr].balance.toString() };
     });
 
     // Write the results to a JSON file
-    fs.writeFileSync(path.join(OUTPUT_DIR, 'hermes.json'), JSON.stringify(outputData, null, 2));
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'bHermes.json'), JSON.stringify(outputData, null, 2));
     console.log('Data has been consolidated.');
 }
 
