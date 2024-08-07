@@ -1,0 +1,12 @@
+{
+  "name": "orchestrator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Maia-DAO/migration-orchestrator.git",
+  "author": "0xBugsy <0xbuggy2@proton.me>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "jsbi": "^4.3.0"
+  }
+}
