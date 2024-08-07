@@ -15,14 +15,12 @@ let results = {};
 const outputFilePath = path.join(OUTPUT_DIR, 'bHermes.json');
 if (fs.existsSync(outputFilePath)) {
     results = JSON.parse(fs.readFileSync(outputFilePath));
-    console.log("🚀 ~ results:", results)
 }
 
 // Function to update balances from locked_balances.json
 function updateFromLockedBalances() {
     const lockedBalancesData = JSON.parse(fs.readFileSync(path.join(INPUT_JSON_DIR, 'locked_balances.json')));
     lockedBalancesData.forEach(entry => {
-        console.log("🚀 ~ updateFromLockedBalances ~ entry:", entry)
         const addr = entry.holder;
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };

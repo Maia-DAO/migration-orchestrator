@@ -33,4 +33,8 @@ node consolidate_bHermes_data.js
 echo "Running starHermes data consolidation..."
 node consolidate_starHermes_data.js
 
+# Step 7: Consolidate erc20 data
+echo "Running ERC20 data consolidation..."
+node consolidate_erc20_data.js
+
 echo "Orchestrator process completed successfully."
