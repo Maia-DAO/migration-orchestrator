@@ -26,7 +26,7 @@ function updateFromLockedBalances() {
             throw new Error("Address is undefined or not valid.");
         }
 
-        const checksumAddress = ethers.getAddress(addr);
+        const checksumAddress = ethers.utils.getAddress(addr);
 
         if (!results[checksumAddress]) {
             results[checksumAddress] = { balance: JSBI.BigInt(0) };

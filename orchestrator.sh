@@ -4,10 +4,10 @@ REPOS_DIR="repos"
 INPUT_JSONS_DIR="input_jsons"
 CONSOLIDATED_OUTPUT_DIR="consolidated_output"
 
-# Step 1: Clone repositories and set up dependencies
-./clone_and_setup.sh
+# # Step 1: Clone repositories and set up dependencies
+# ./clone_and_setup.sh
 
-# Step 2: Run scripts
+# # Step 2: Run scripts
 # ./run_all_scripts.sh
 
 # Step 3: Update inputs
@@ -52,5 +52,9 @@ node checkDuplicates.js consolidated_output/bHermes.json
 # Step 11: Filter contract addresses
 echo "Looking for contract addresses in outputs..."
 node filterEntries.js
+
+# Step 12: Get airdrop inputs
+echo "Getting airdrop inputs..."
+node prepare_calls.js
 
 echo "Orchestrator process completed successfully."

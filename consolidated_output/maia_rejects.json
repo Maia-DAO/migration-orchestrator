@@ -1,74 +1,74 @@
 {
   "0x43ef77ae47f79af5f0c3674ee28ca0fef692a012": {
     "address": "0x43ef77ae47f79af5f0c3674ee28ca0fef692a012",
-    "balance": "47411575101083992006291",
+    "balance": "18974870386226315752881",
     "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "635200764510",
-    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "47411575100448756929962",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "15122895"
+    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "18974870385591077796300",
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "16334545"
   },
   "0xc941aa67643b3b54531d70d19fb34ed287f32171": {
     "address": "0xc941aa67643b3b54531d70d19fb34ed287f32171",
-    "balance": "9639946623445957502390",
-    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "24965304050",
-    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "1557698434789490225683"
+    "balance": "10140063861577229768454",
+    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "27516851715",
+    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "1389789006771568025211"
   },
   "0x8e4e18fd60c584945beb6ba08771520455dfcae4": {
     "address": "0x8e4e18fd60c584945beb6ba08771520455dfcae4",
-    "balance": "1154289001989592477746",
-    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "996178382336",
-    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "1154289000991004624460",
-    "maia.csv": "2409470950"
+    "balance": "1065958105856154552085",
+    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "758342479084",
+    "pending_rewards_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "1065958105095400051589",
+    "maia.csv": "2412021412"
   },
   "0x528c90238C612d3d827F7C866b5708C3B0d315e6": {
     "address": "0x528c90238C612d3d827F7C866b5708C3B0d315e6",
-    "balance": "20805025517644",
-    "totals.json": "20805025517644"
+    "balance": "16878495596235",
+    "totals.json": "16878495596235"
   },
   "0x73c1aB2D75a36f2157F4345c0fFa6F79f050A6B1": {
     "address": "0x73c1aB2D75a36f2157F4345c0fFa6F79f050A6B1",
-    "balance": "4069234097508",
-    "totals.json": "4069234097508"
-  },
-  "0x975706b498E43E3c8c5775B3C881566db8a78c67": {
-    "address": "0x975706b498E43E3c8c5775B3C881566db8a78c67",
-    "balance": "459980107776",
-    "totals.json": "459980107776"
+    "balance": "4391298699946",
+    "totals.json": "4391298699946"
   },
   "0x2D678cd60B3dbE879d003Cb4f7aA039dc82Df9d0": {
     "address": "0x2D678cd60B3dbE879d003Cb4f7aA039dc82Df9d0",
-    "balance": "387695438984",
-    "totals.json": "387695438984"
+    "balance": "713663804610",
+    "totals.json": "713663804610"
+  },
+  "0x975706b498E43E3c8c5775B3C881566db8a78c67": {
+    "address": "0x975706b498E43E3c8c5775B3C881566db8a78c67",
+    "balance": "412007897029",
+    "totals.json": "412007897029"
   },
   "0xdEE1ffEBE5a515e5369C3938F387553EeE98Bd54": {
     "address": "0xdEE1ffEBE5a515e5369C3938F387553EeE98Bd54",
-    "balance": "1937158921",
-    "totals.json": "1937158921"
+    "balance": "1937158923",
+    "totals.json": "1937158923"
   },
   "0xd4Dc49413E67bCE6BE1DE937C5c661cAB20F4f87": {
     "address": "0xd4Dc49413E67bCE6BE1DE937C5c661cAB20F4f87",
-    "balance": "1513395239",
-    "totals.json": "1513395239"
+    "balance": "1320280070",
+    "totals.json": "1320280070"
   },
   "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f": {
     "address": "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f",
-    "balance": "579321684978",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "65306750",
-    "maia.csv": "578984497129"
+    "balance": "580205355915",
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "7656193",
+    "maia.csv": "580116497419"
   },
   "0x1862d3AE3f771c4405fFbc16517Bf16b8ADBB143": {
     "address": "0x1862d3AE3f771c4405fFbc16517Bf16b8ADBB143",
-    "balance": "48957187",
-    "totals.json": "48957187"
+    "balance": "52761048",
+    "totals.json": "52761048"
   },
   "0x0018E16c6a08034190973beE627b90995f017A82": {
     "address": "0x0018E16c6a08034190973beE627b90995f017A82",
-    "balance": "23400735",
-    "totals.json": "23400735"
+    "balance": "20414709",
+    "totals.json": "20414709"
   },
   "0x9a044bb887aedc4ac20d32b32acc724a287f2261": {
     "address": "0x9a044bb887aedc4ac20d32b32acc724a287f2261",
-    "balance": "154414357",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "15012132",
+    "balance": "159596078",
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "20193853",
     "maia.csv": "139402225"
   },
   "0x1CeA9813b81959e5eC02231845ff2CEdBedF6430": {
@@ -77,32 +77,32 @@
     "totals.json": "1"
   },
   "0xd7a586ce5250befab2cc2239f7226b9602536e6a": {
-    "balance": "102178834711848",
-    "maia.csv": "102178834711848"
+    "balance": "103659133106024",
+    "maia.csv": "103659133106024"
   },
   "0xa3e8e7eb4649ffc6f3cbe42b4c2ecf6625d3e802": {
-    "balance": "20954892877110",
-    "maia.csv": "20954892877110"
+    "balance": "16951917972192",
+    "maia.csv": "16951917972192"
   },
   "0x2d2c5271d85f16a1dacce8cdabda3cdb09183d40": {
-    "balance": "16548374707210",
-    "maia.csv": "16548374707210"
+    "balance": "14657774622968",
+    "maia.csv": "14657774622968"
   },
   "0xe2546b144efc3f8bd85d84b6ca64cc4f033c9be1": {
-    "balance": "6351683665876",
-    "maia.csv": "6351683665876"
+    "balance": "6321616476541",
+    "maia.csv": "6321616476541"
   },
   "0x39d5484d12176c63be53a48a8437f5a73c9f71a8": {
-    "balance": "4069255777342",
-    "maia.csv": "4069255777342"
-  },
-  "0x2f839806d7d2b3e6714c3de23376fa929a037e30": {
-    "balance": "495314047330",
-    "maia.csv": "495314047330"
+    "balance": "4391320838595",
+    "maia.csv": "4391320838595"
   },
   "0xad988948eb90640c32b9321239d10b3d80f33e76": {
-    "balance": "393116105007",
-    "maia.csv": "393116105007"
+    "balance": "719372687573",
+    "maia.csv": "719372687573"
+  },
+  "0x2f839806d7d2b3e6714c3de23376fa929a037e30": {
+    "balance": "432110032139",
+    "maia.csv": "432110032139"
   },
   "0xa12a131c6a178f3cad1203a3016b8da475d6e42b": {
     "balance": "360100000000",
@@ -113,8 +113,8 @@
     "maia.csv": "55481714016"
   },
   "0xf4c152aa67cc71fd036c16505a1571e470c5d26d": {
-    "balance": "52094754696",
-    "maia.csv": "52094754696"
+    "balance": "53058121391",
+    "maia.csv": "53058121391"
   },
   "0x5c89dcfb4b319b3878e2cfbffea75e681c24c2b6": {
     "balance": "44417734371",
@@ -125,8 +125,8 @@
     "maia.csv": "33866000510"
   },
   "0xca6e5d91d032ae59d905f8439ec5d444bfcc3f39": {
-    "balance": "32335709115",
-    "maia.csv": "32335709115"
+    "balance": "32134200569",
+    "maia.csv": "32134200569"
   },
   "0x15ac5940d9805fa7d7e57e2e931f4f2e32e3fe70": {
     "balance": "12658653912",
@@ -148,13 +148,13 @@
     "balance": "4702988642",
     "maia.csv": "4702988642"
   },
+  "0x82758824b93f2648bcc9387878cf443c9c0cb768": {
+    "balance": "4305856712",
+    "maia.csv": "4305856712"
+  },
   "0xea0415b511a1199f7e0822b8641ab49a44c74a1d": {
     "balance": "4163952414",
     "maia.csv": "4163952414"
-  },
-  "0x82758824b93f2648bcc9387878cf443c9c0cb768": {
-    "balance": "3983534632",
-    "maia.csv": "3983534632"
   },
   "0x3e0844fcc4ecefb9b5c37d628455fcc386f5169e": {
     "balance": "3002939381",
@@ -181,24 +181,24 @@
     "maia.csv": "1970697385"
   },
   "0x60f86376c89aa5bfe2671f279c24b58cd255c35d": {
-    "balance": "1937159920",
-    "maia.csv": "1937159920"
+    "balance": "1937159922",
+    "maia.csv": "1937159922"
   },
   "0x8cd849c75972ab0c5eff907dc6455ced65444028": {
-    "balance": "1321927656",
-    "maia.csv": "1321927656"
+    "balance": "1300627544",
+    "maia.csv": "1300627544"
   },
-  "0x784dee3fe1353ea3863ba4b99671e6a24f27a8a6": {
-    "balance": "1160589027",
-    "maia.csv": "1160589027"
+  "0x245b705d1311deed56f4d433de0b7a2d9f274d33": {
+    "balance": "1159251490",
+    "maia.csv": "1159251490"
   },
   "0xd888379998896d99855118dd8c32c40ec9251ce6": {
     "balance": "1136801166",
     "maia.csv": "1136801166"
   },
-  "0x245b705d1311deed56f4d433de0b7a2d9f274d33": {
-    "balance": "1004817502",
-    "maia.csv": "1004817502"
+  "0x784dee3fe1353ea3863ba4b99671e6a24f27a8a6": {
+    "balance": "1025733704",
+    "maia.csv": "1025733704"
   },
   "0xa5a05a95c0baafb9d32b8a9d045ee399220f0afe": {
     "balance": "749127285",
@@ -209,16 +209,16 @@
     "maia.csv": "697224493"
   },
   "0x3fdece229a1b482ac4105b13a5b56a422291fe6b": {
-    "balance": "573666420",
-    "maia.csv": "573666420"
+    "balance": "578455482",
+    "maia.csv": "578455482"
   },
   "0xe0ab9df7fce43d363b2c744b7535fc5415e81c4d": {
-    "balance": "477972931",
-    "maia.csv": "477972931"
+    "balance": "476221252",
+    "maia.csv": "476221252"
   },
   "0x4c25966a7a2bbd129986b8581e0cfc1edd7f2bd6": {
-    "balance": "194880395",
-    "maia.csv": "194880395"
+    "balance": "259983561",
+    "maia.csv": "259983561"
   },
   "0x6a088a4b39bc743681e4e6fa9e659c879b0421df": {
     "balance": "185297276",
@@ -249,32 +249,28 @@
     "maia.csv": "100000000"
   },
   "0x5706d12606e1ba405d3575a56db8a7666dedf5a4": {
-    "balance": "89692132",
-    "maia.csv": "89692132"
+    "balance": "99411377",
+    "maia.csv": "99411377"
   },
   "0xdf31238e55cd2fc84f63f5611f467271f2c59949": {
     "balance": "59248559",
     "maia.csv": "59248559"
   },
   "0x40beccbacac56743a3257d9bb20744fb4f45cd79": {
-    "balance": "57399482",
-    "maia.csv": "57399482"
+    "balance": "49143285",
+    "maia.csv": "49143285"
   },
   "0x83de931543ba68fe9c2684ab350985f2c10e501a": {
     "balance": "40590617",
     "maia.csv": "40590617"
   },
   "0x9f752b290ffaea8e5b8bf1a6707cf789bcf77376": {
-    "balance": "28748033",
-    "maia.csv": "28748033"
+    "balance": "25741306",
+    "maia.csv": "25741306"
   },
   "0xf4ac2df87c9bfefd4540d76f71317dd6cae0de40": {
     "balance": "14713851",
     "maia.csv": "14713851"
-  },
-  "0x38787c0e3745ae144b7a57f2e1dcce1a015eded9": {
-    "balance": "12986366",
-    "maia.csv": "12986366"
   },
   "0x0c762b8b029969a3a5d98ea2a9d5b880e28bad9d": {
     "balance": "10305709",
@@ -312,6 +308,10 @@
     "balance": "3646472",
     "maia.csv": "3646472"
   },
+  "0x38787c0e3745ae144b7a57f2e1dcce1a015eded9": {
+    "balance": "1732605",
+    "maia.csv": "1732605"
+  },
   "0x42b60ae4a0c3077b821e5b6408ac9dc8cbb7d211": {
     "balance": "1427784",
     "maia.csv": "1427784"
@@ -341,8 +341,8 @@
     "maia.csv": "73657"
   },
   "0x3185aaf45843055956db5974e32bf27c5482e827": {
-    "balance": "36028",
-    "maia.csv": "36028"
+    "balance": "37625",
+    "maia.csv": "37625"
   },
   "0xdee1ffebe5a515e5369c3938f387553eee98bd54": {
     "balance": "18249",
@@ -360,13 +360,13 @@
     "balance": "617",
     "maia.csv": "617"
   },
+  "0x0000000000002f2c7bc8de9ad25fcf041b4679c6": {
+    "balance": "464",
+    "maia.csv": "464"
+  },
   "0x4e4591a1d4555511244772b3c9e1d44aab745b83": {
     "balance": "392",
     "maia.csv": "392"
-  },
-  "0x0000000000002f2c7bc8de9ad25fcf041b4679c6": {
-    "balance": "77",
-    "maia.csv": "77"
   },
   "0xc7480f9ab6ca359cbaab693ac1de2659e2d42fc9": {
     "balance": "16",

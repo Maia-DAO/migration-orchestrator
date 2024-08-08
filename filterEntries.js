@@ -2,7 +2,7 @@ const fs = require('fs');
 const { ethers } = require('ethers');
 
 // Setup ethers provider
-const provider = new ethers.JsonRpcProvider('https://metis-pokt.nodies.app');
+const provider = new ethers.providers.JsonRpcProvider('https://metis-mainnet.g.alchemy.com/v2/FWmhvca-2KGl6D1o9YcToyEeO8Lmshcy');
 
 const ADDRESSES_JSON_PATH = 'input_jsons/addresses_to_exclude.json';
 

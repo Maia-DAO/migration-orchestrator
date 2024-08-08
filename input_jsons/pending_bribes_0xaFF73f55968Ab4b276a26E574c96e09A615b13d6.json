@@ -5,7 +5,7 @@
       {
         "account": "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f",
         "token": "2",
-        "pendingReward": "431281204350999918"
+        "pendingReward": "921125400837799811"
       },
       {
         "account": "0xf5f61157f3c13e4bbc5c42e75ae80946b72de83f",
@@ -15,7 +15,7 @@
       {
         "account": "0x683028fc63477b8a702cfe7475865952d3e8ac09",
         "token": "1858",
-        "pendingReward": "302060984385189362"
+        "pendingReward": "11449864220404079"
       },
       {
         "account": "0xff807487542b792b1af9c7ed8369130832a5570b",
@@ -25,7 +25,7 @@
       {
         "account": "0x8e6136ce3572d5c9be30b06b0bc1838f36a16f21",
         "token": "3839",
-        "pendingReward": "35630750170995408"
+        "pendingReward": "35803766866735721"
       },
       {
         "account": "0x4b1bc18312c94da28491356292a46b76a8a4ae4d",
@@ -35,12 +35,17 @@
       {
         "account": "0xd9d4f25acb0466b49f3be1bf68770c5aa12e898a",
         "token": "1418",
-        "pendingReward": "95430007489177304"
+        "pendingReward": "43342741033475143406"
       },
       {
         "account": "0x1204a22a8cc5586b67ec2778a02e47d230a6455e",
         "token": "1508",
-        "pendingReward": "1825201476638962"
+        "pendingReward": "1835421930359606"
+      },
+      {
+        "account": "0xf7d1557c6515e09695fb36f2dbb41354048bc8e6",
+        "token": "1519",
+        "pendingReward": "1695639362199115"
       },
       {
         "account": "0x1c4592c58e1390c636376c77ffa1fd006975b39b",
@@ -50,7 +55,7 @@
       {
         "account": "0xfac4e3767b7fe70a55e894b644abdacbc2f84125",
         "token": "1993",
-        "pendingReward": "2341633224934133"
+        "pendingReward": "2344533716715749"
       },
       {
         "account": "0xc620b2893dd5fee2d0124aae20a2ed825d7f5914",
@@ -60,7 +65,7 @@
       {
         "account": "0x31ce3215280b13557849f79686814789499ebd22",
         "token": "2389",
-        "pendingReward": "402607167524376895"
+        "pendingReward": "404538336576560816"
       },
       {
         "account": "0x1d344605b47cb5c69329128272149923c419c32f",
@@ -70,7 +75,7 @@
       {
         "account": "0x02fbf6b7795addbc04013361f3a57ec60285036c",
         "token": "4054",
-        "pendingReward": "202416343139"
+        "pendingReward": "803211801196"
       }
     ]
   },
