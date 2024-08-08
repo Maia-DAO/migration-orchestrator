@@ -39,21 +39,6 @@ stakedData.forEach(gauge => {
     });
 });
 
-// Read and process pending_rewards.json
-const rewardsData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, `pending_rewards_${TOKEN_ADDRESS}.json`)));
-rewardsData.forEach(gauge => {
-    gauge.rewards.forEach(reward => {
-        const addr = reward.account;
-        if (!results[addr]) {
-            results[addr] = { balance: JSBI.BigInt(0) };
-        }
-        if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
-            results[addr][`pending_rewards_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(reward.pendingReward).toString();
-            results[addr].balance = JSBI.add(results[addr].balance, JSBI.BigInt(reward.pendingReward));
-        }
-    });
-});
-
 // Read and process pending_bribes.json
 const bribesData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, `pending_bribes_${TOKEN_ADDRESS}.json`)));
 bribesData.forEach(gauge => {
