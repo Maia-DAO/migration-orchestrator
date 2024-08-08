@@ -18,6 +18,12 @@ if (fs.existsSync(outputFilePath)) {
 const totalsData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, 'totals.json')));
 const tokenHolders = totalsData[TOKEN_ADDRESS];
 Object.keys(tokenHolders).forEach(addr => {
+
+    // Check if the address is undefined or not a valid string
+    if (typeof addr !== 'string' || !addr) {
+        throw new Error("Address is undefined or not valid.");
+    }
+
     if (!results[addr]) {
         results[addr] = { balance: JSBI.BigInt(0) };
     }
@@ -32,6 +38,12 @@ const stakedData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, `staked
 stakedData.forEach(gauge => {
     gauge.stakes.forEach(stake => {
         const addr = stake.holderAddress;
+
+        // Check if the address is undefined or not a valid string
+        if (typeof addr !== 'string' || !addr) {
+            throw new Error("Address is undefined or not valid.");
+        }
+
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
@@ -47,6 +59,12 @@ const rewardsData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, `pendi
 rewardsData.forEach(gauge => {
     gauge.rewards.forEach(reward => {
         const addr = reward.account;
+
+        // Check if the address is undefined or not a valid string
+        if (typeof addr !== 'string' || !addr) {
+            throw new Error("Address is undefined or not valid.");
+        }
+
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
@@ -62,6 +80,12 @@ const bribesData = JSON.parse(fs.readFileSync(path.join(INPUT_JSONS_DIR, `pendin
 bribesData.forEach(gauge => {
     gauge.rewards.forEach(reward => {
         const addr = reward.account;
+
+        // Check if the address is undefined or not a valid string
+        if (typeof addr !== 'string' || !addr) {
+            throw new Error("Address is undefined or not valid.");
+        }
+
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
@@ -89,7 +113,6 @@ entries.sort((a, b) => {
 const outputData = {};
 entries.forEach(entry => {
     outputData[entry.address] = { ...entry };
-    // outputData[entry.address] = { ...entry, balance: JSBI.BigInt(entry.balance) };
 });
 
 fs.writeFileSync(path.join(OUTPUT_DIR, 'bHermes.json'), JSON.stringify(outputData, null, 2));

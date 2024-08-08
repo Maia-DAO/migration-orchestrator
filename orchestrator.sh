@@ -37,4 +37,20 @@ node consolidate_starHermes_data.js
 echo "Running ERC20 data consolidation..."
 node consolidate_erc20_data.js
 
+# Step 8: Look for duplicates in maia data
+echo "Looking for duplicates in maia..."
+node checkDuplicates.js consolidated_output/maia.json
+
+# Step 9: Look for duplicates in hermes data
+echo "Looking for duplicates in hermes..."
+node checkDuplicates.js consolidated_output/hermes.json
+
+# Step 10: Look for duplicates in bHermes data
+echo "Looking for duplicates in bHermes..."
+node checkDuplicates.js consolidated_output/bHermes.json
+
+# Step 11: Filter contract addresses
+echo "Looking for contract addresses in outputs..."
+node filterEntries.js
+
 echo "Orchestrator process completed successfully."

@@ -30,6 +30,12 @@ function processCSV(filename) {
                     const rewardBigInt = JSBI.BigInt(reward || '0');
 
                     if (JSBI.greaterThan(rewardBigInt, JSBI.BigInt(0))) {
+
+                        // Check if the address is undefined or not a valid string
+                        if (typeof addr !== 'string' || !addr) {
+                            throw new Error("Address is undefined or not valid.");
+                        }
+
                         results[addr][filename] = rewardBigInt.toString();
                         results[addr].balance = JSBI.add(results[addr].balance, rewardBigInt);
                     }
