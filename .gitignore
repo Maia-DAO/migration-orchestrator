@@ -6,9 +6,6 @@ repos/metis-migration/node_modules/
 repos/ve-hermes-migration/node_modules/
 repos/metis-migration/lib/
 
-# Ignore consolidated output files
-consolidated_output/
-
 # Ignore any log files
 *.log
 
