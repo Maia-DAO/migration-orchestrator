@@ -72,9 +72,6 @@ async function filterEntries(inputFile, outputFile) {
     }
   });
 
-  console.log("Remaining:", finalRemaining);
-  console.log("Rejected:", finalRejected);
-
   // overwrite input
   overwriteJSON(inputFile, finalRemaining);
   // save rejects
