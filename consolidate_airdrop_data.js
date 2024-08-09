@@ -51,13 +51,10 @@ function processCSV(filename) {
 
 // Function to consolidate data
 async function consolidateData() {
-    await Promise.all([
-        processCSV('balances_lp1.csv'),
-        processCSV('balances_lp2.csv'),
-        processCSV('balances_s1.csv'),
-        processCSV('balances_s2.csv'),
-    ]);
-
+    await processCSV('balances_lp1.csv')
+    await processCSV('balances_lp2.csv')
+    await processCSV('balances_s1.csv')
+    await processCSV('balances_s2.csv')
     const outputData = {};
     Object.keys(results).forEach(addr => {
         outputData[addr] = { ...results[addr], balance: results[addr].balance.toString() };

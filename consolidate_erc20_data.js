@@ -72,13 +72,11 @@ async function processCSV(filename, output) {
 
 // Function to consolidate data
 async function consolidateData() {
-    await Promise.all([
-        processCSV(input_maia, 'maia.json'),
-        processCSV(input_sMaia, 'maia.json'),
-        processCSV(input_old_sMaia, 'maia.json'),
-        processCSV(input_hermes, 'hermes.json'),
-        processCSV(input_starHermes, 'bHermes.json'),
-    ]);
+    await processCSV(input_maia, 'maia.json')
+    await processCSV(input_sMaia, 'maia.json')
+    await processCSV(input_old_sMaia, 'maia.json')
+    await processCSV(input_hermes, 'hermes.json')
+    await processCSV(input_starHermes, 'bHermes.json')
 }
 
 consolidateData();
