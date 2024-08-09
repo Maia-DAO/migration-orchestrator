@@ -14,7 +14,7 @@ cd $REPOS_DIR/metis-migration
 # Ensure that there are jsons to copy, otherwise, it could also cause errors if the glob doesn't match any files
 echo "Copying files from metis-migration to $INPUT_JSONS_DIR"
 cp totals.json ../../$INPUT_JSONS_DIR/
-cp pending_rewards_*.json ../../$INPUT_JSONS_DIR/
+cp pending_rewards.json ../../$INPUT_JSONS_DIR/
 cp staked_balance_*.json ../../$INPUT_JSONS_DIR/
 cd ../..
 
