@@ -642,13 +642,12 @@ const MULTICALL_ABI = [
 
 async function main() {
     for (let i = 0; i < tokenList.length; i++) {
-        const inputFile = inputFiles[i];
         const balanceInputFile = balanceInputFiles[i];
-        const outputFile = outputFiles[i];
         const vaultAddress = vaults[i];
         const strategyAddress = strategies[i].toString();
         const creationBlock = creationBlocks[i];
         const block = await provider.getBlockNumber()
+
         console.log("🚀 ~ main ~ strategyAddress:", balanceInputFile, strategyAddress)
 
         const Vault = new ethers.Contract(vaultAddress, MOO_ABI, provider);
@@ -675,11 +674,6 @@ async function main() {
                 }
             });
         });
-
-        // // Assuming 'balances' is an array and each 'balance' has a 'stakes' array
-        // const balance = balances.find(gauge =>
-        //     gauge.stakes.some(stake => stake.holderAddress === strategyAddress)
-        // );
 
         if (!balance) {
             console.log("FAILED", balance)
@@ -764,7 +758,7 @@ async function processCSV(filename) {
                     results[addr] = { balance: 0 };  // Initialize with a BigInt.
                 }
                 try {
-                    const rewardToUse = parseInt(reward || '0');
+                    const rewardToUse = parseFloat(reward || '0');
 
                     // Check if the address is undefined or not a valid string
                     if (typeof addr !== 'string' || !addr) {
