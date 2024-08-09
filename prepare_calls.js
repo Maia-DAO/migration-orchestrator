@@ -10,13 +10,21 @@ function loadJSON(filePath) {
 // Function to format and output the data
 function formatData(data, divisor, outputFilePath) {
   let outputData = "";
+  let totalLowBalances = 0;
+  let lowBalancesCounter = 0;
   Object.keys(data).forEach((key) => {
     const address = key;
     const balance = parseInt(data[key].balance);
     const formattedBalance = balance / divisor;
-    outputData += `${address},${formattedBalance}\n`;
+    if (formattedBalance > 0.001) {
+      outputData += `${address},${formattedBalance}\n`;
+    } else {
+      totalLowBalances += formattedBalance;
+      lowBalancesCounter++;
+    }
     // console.log(`${address},${formattedBalance}`);
   });
+  console.log("Total Low Balances:", totalLowBalances, lowBalancesCounter);
 
   // Write the formatted data to the specified output file
   fs.writeFileSync(outputFilePath, outputData, "utf8");
@@ -46,7 +54,7 @@ function main() {
     formatData(hermes, 1e18, "consolidated_output/hermes_calls.csv");
     console.log("Done hermes.");
 
-    console.log("Preparing starHermes...");
+    console.log("Preparing bHermes...");
     const bHermes = loadJSON(bHermesFilePath);
     formatData(bHermes, 1e18, "consolidated_output/bHermes_calls.csv");
     console.log("Done bHermes.");
