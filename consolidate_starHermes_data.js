@@ -47,9 +47,9 @@ stakedData.forEach(gauge => {
         if (!results[addr]) {
             results[addr] = { balance: JSBI.BigInt(0) };
         }
-        if (JSBI.greaterThan(stake.stakedBalance, JSBI.BigInt(0))) {
-            results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(stake.stakedBalance).toString();
-            results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(stake.stakedBalance)).toString();
+        if (JSBI.greaterThan(stake.shareOfTargetToken, JSBI.BigInt(0))) {
+            results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(stake.shareOfTargetToken).toString();
+            results[addr].balance = JSBI.add(JSBI.BigInt(results[addr].balance), JSBI.BigInt(stake.shareOfTargetToken)).toString();
         }
     });
 });
