@@ -1,0 +1,131 @@
+{
+  "0": {
+    "address": "0x0034C0abE9192C4CBFbB4662f2aB7c491F7bf25e",
+    "balance": "4972749168575601092591616",
+    "totals.json": "4972749168575601092591616"
+  },
+  "1": {
+    "address": "0x7413a9Fa281091ED98b538B1C9c662aeD3530429",
+    "balance": "113642251473850744832",
+    "totals.json": "113642251473850744832"
+  },
+  "2": {
+    "address": "0xabdDB8FA8c39d3FC07611ff006499D54032F5332",
+    "balance": "9164",
+    "totals.json": "9164"
+  },
+  "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F": {
+    "address": "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F",
+    "balance": "121429130573379529593748673",
+    "locked_balances.json": "121429130573379529593748673"
+  },
+  "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261": {
+    "address": "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261",
+    "balance": "5506878561612422565445207",
+    "locked_balances.json": "5506878561612422565445207"
+  },
+  "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012": {
+    "address": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
+    "balance": "5497522317168346101724145",
+    "locked_balances.json": "5497522317168346101724145"
+  },
+  "0xEAEC50eBe1c2A981ED8be02C36b0863Fae322975": {
+    "address": "0xEAEC50eBe1c2A981ED8be02C36b0863Fae322975",
+    "balance": "327704778344780230319378",
+    "locked_balances.json": "327704778344780230319378"
+  },
+  "0xc941aa67643b3b54531d70d19fb34ed287f32171": {
+    "address": "0xc941aa67643b3b54531d70d19fb34ed287f32171",
+    "balance": "67538280366928598922341",
+    "staked_balance_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "67538280366928598922341"
+  },
+  "0xC941aa67643B3B54531d70d19fB34ed287f32171": {
+    "address": "0xC941aa67643B3B54531d70d19fB34ed287f32171",
+    "balance": "33005645306936017374261",
+    "locked_balances.json": "33005645306936017374261"
+  },
+  "0x82524ebF9e5e0D793B4Dd3E920Ab430aC94c5F3B": {
+    "address": "0x82524ebF9e5e0D793B4Dd3E920Ab430aC94c5F3B",
+    "balance": "6596901096765744827",
+    "locked_balances.json": "6596901096765744827"
+  },
+  "0x132F6F85916Db26CeAd0f15957BD6d00773E25c1": {
+    "address": "0x132F6F85916Db26CeAd0f15957BD6d00773E25c1",
+    "balance": "3934973046063402654",
+    "locked_balances.json": "3934973046063402654"
+  },
+  "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f": {
+    "address": "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f",
+    "balance": "924239842297662515172",
+    "pending_bribes_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "921125400837799811",
+    "starHermes.csv": "923318716896824715361"
+  },
+  "0xfb0bdb768463ef871e52cf3dde1fc1594027c7eb": {
+    "address": "0xfb0bdb768463ef871e52cf3dde1fc1594027c7eb",
+    "balance": "0"
+  },
+  "0x299348cf3dac4782ed85569b4ab0d7ee0e0af6c4": {
+    "balance": "4993113427939393149850897",
+    "starHermes.csv": "4993113427939393149850897"
+  },
+  "0x5c5020a859662bd7d44c51227ac972ecce63b0da": {
+    "balance": "1543701386609527519744390",
+    "starHermes.csv": "1543701386609527519744390"
+  },
+  "0xc45ed628997daea764f2e0ad308e3d12d3f8d383": {
+    "balance": "46194896708443537355567",
+    "starHermes.csv": "46194896708443537355567"
+  },
+  "0xd2fdac6d756b541322a64f20c0b896e39682cc06": {
+    "balance": "3481886087582163146789",
+    "starHermes.csv": "3481886087582163146789"
+  },
+  "0xe9f5e0deea08502fba2e5165ffc9cfec7e3dd6e4": {
+    "balance": "1418250912817727912282",
+    "starHermes.csv": "1418250912817727912282"
+  },
+  "0xc08b26c77674c93411207cca6dd4a5f510de89a0": {
+    "balance": "378420891135997908764",
+    "starHermes.csv": "378420891135997908764"
+  },
+  "0x177e51df107bd7b624e6278b34fe3620e061e459": {
+    "balance": "167547105000000000000",
+    "starHermes.csv": "167547105000000000000"
+  },
+  "0xd70f112337b1db80cae0a9f78e45794ca511e40c": {
+    "balance": "74079797839735384763",
+    "starHermes.csv": "74079797839735384763"
+  },
+  "0x8883e424d966a3031973688e4fa35f89fc16a9f9": {
+    "balance": "27484211242215034000",
+    "starHermes.csv": "27484211242215034000"
+  },
+  "0xfe1d9ca5a515e2e3eee754783e0d8fad8338e78f": {
+    "balance": "15351486544002518894",
+    "starHermes.csv": "15351486544002518894"
+  },
+  "0xc41aaf82295f599bee68f290af7296ea4e61dd45": {
+    "balance": "11897654838158176642",
+    "starHermes.csv": "11897654838158176642"
+  },
+  "0x0719022a5fdc00a40c6f5c7e685fa1a3cb822778": {
+    "balance": "4447766220484993631",
+    "starHermes.csv": "4447766220484993631"
+  },
+  "0xdd35d0fb187c741f041b7e7850cc58a93bf5627a": {
+    "balance": "4990036073406596",
+    "starHermes.csv": "4990036073406596"
+  },
+  "0x82be1091157d14358cc35cb2b90ec86c5f277b29": {
+    "balance": "4687003535112493",
+    "starHermes.csv": "4687003535112493"
+  },
+  "0xd2d3c793dd0bc1c17a2dc2052da9d4b903f5fa98": {
+    "balance": "5",
+    "starHermes.csv": "5"
+  },
+  "0xae77d5b8358bf921a38b7fdcb712b3cbf9afbd3c": {
+    "balance": "1",
+    "starHermes.csv": "1"
+  }
+}

@@ -60,15 +60,15 @@ async function filterEntries(inputFile, outputFile) {
 
   // Check which of the remaining addresses are contracts
   const areContracts = await isContracts(remaining);
-  const finalRemaining = [];
-  const finalRejected = [...rejected]; // Start with already rejected addresses
+  const finalRemaining = {};
+  const finalRejected = { ...rejected }; // Start with already rejected addresses
 
   // Filter out contracts from remaining
   remaining.forEach((address, index) => {
     if (areContracts[index]) {
-      finalRejected.push(data[address]);
+      finalRejected[address] = data[address];
     } else {
-      finalRemaining.push(data[address]);
+      finalRemaining[address] = data[address];
     }
   });
 
