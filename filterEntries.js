@@ -6,6 +6,12 @@ const provider = new ethers.providers.JsonRpcProvider('https://metis-mainnet.g.a
 
 const ADDRESSES_JSON_PATH = 'input_jsons/addresses_to_exclude.json';
 
+const GET_CODE_ABI = [{ "type": "function", "name": "isContract", "inputs": [{ "name": "addrs", "type": "address[]", "internalType": "address[]" }], "outputs": [{ "name": "", "type": "bool[]", "internalType": "bool[]" }], "stateMutability": "view" }, { "type": "function", "name": "isContract", "inputs": [{ "name": "addr", "type": "address", "internalType": "address" }], "outputs": [{ "name": "", "type": "bool", "internalType": "bool" }], "stateMutability": "view" }];
+const GET_CODE_ADDRESS = '0xe2a2bd7E86Eb9F2DdE339860b052f80781d6e7d0';
+const getCode = new ethers.Contract(GET_CODE_ADDRESS, GET_CODE_ABI, provider)
+console.log("🚀 ~ getCode:", getCode)
+
+
 function loadJSON(path) {
     const rawData = fs.readFileSync(path, 'utf8');
     return JSON.parse(rawData);
@@ -21,29 +27,50 @@ function overwriteJSON(path, data) {
     fs.renameSync(tempPath, path);
 }
 
-async function isContract(address) {
-    const code = await provider.getCode(address);
-    return code !== '0x';  // '0x' indicates no contract at the address
+async function isContracts(addresses) {
+    console.log("🚀 ~ isContracts ~ getCode:", getCode)
+    const results = await getCode.callStatic.isContract(addresses)
+    return ethers.utils.defaultAbiCoder.decode(["bool[]"], results)[0];
 }
 
 async function filterEntries(inputFile, outputFile) {
     const data = await loadJSON(inputFile);
     const addressList = await loadJSON(ADDRESSES_JSON_PATH);
-    const remainingEntries = {};
-    const rejectedEntries = {};
+    const keys = Object.keys(data);
 
-    for (let key in data) {
-        if (!addressList.includes(key) && !(await isContract(key))) {
-            remainingEntries[key] = data[key];
+    const remaining = [];
+    const rejected = [];
+
+    // Divide addresses into remaining and rejected based on a predefined list
+    keys.forEach(key => {
+        if (addressList.includes(key)) {
+            rejected.push(data[key]);
         } else {
-            rejectedEntries[key] = data[key];
+            remaining.push(key);
         }
-    }
+    });
+
+    // Check which of the remaining addresses are contracts
+    const areContracts = await isContracts(remaining);
+    const finalRemaining = [];
+    const finalRejected = [...rejected]; // Start with already rejected addresses
+
+    // Filter out contracts from remaining
+    remaining.forEach((address, index) => {
+        if (areContracts[index]) {
+            finalRejected.push(data[address]);
+        } else {
+            finalRemaining.push(data[address]);
+        }
+    });
+
+    console.log('Remaining:', finalRemaining);
+    console.log('Rejected:', finalRejected);
 
     // overwrite input
-    await overwriteJSON(inputFile, remainingEntries);
+    await overwriteJSON(inputFile, finalRemaining);
     // save rejects
-    await saveJSON(outputFile, rejectedEntries);
+    await saveJSON(outputFile, finalRejected);
 
     console.log('Filtering complete. Check the output files for results.');
 }
