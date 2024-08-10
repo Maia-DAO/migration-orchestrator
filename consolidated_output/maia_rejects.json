@@ -29,21 +29,19 @@
     "balance": "1",
     "totals.json": "1"
   },
-  "0x8e4e18fd60c584945beb6ba08771520455dfcae4": {
-    "address": "0x8e4e18fd60c584945beb6ba08771520455dfcae4",
-    "balance": "5689808810974",
-    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "5687396789562",
-    "maia.csv": "2412021412"
+  "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4": {
+    "address": "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4",
+    "balance": "5687396789562",
+    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "5687396789562"
   },
-  "0x43ef77ae47f79af5f0c3674ee28ca0fef692a012": {
-    "address": "0x43ef77ae47f79af5f0c3674ee28ca0fef692a012",
-    "balance": "2886514856636",
+  "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012": {
+    "address": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
+    "balance": "673753594187",
     "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "673716402116",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "16334545",
-    "sMaia.csv": "2212761262449"
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "16334545"
   },
-  "0xc941aa67643b3b54531d70d19fb34ed287f32171": {
-    "address": "0xc941aa67643b3b54531d70d19fb34ed287f32171",
+  "0xC941aa67643B3B54531d70d19fB34ed287f32171": {
+    "address": "0xC941aa67643B3B54531d70d19fB34ed287f32171",
     "balance": "344181387123",
     "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "206370153880"
   },
@@ -52,11 +50,10 @@
     "balance": "1320280070",
     "totals.json": "1320280070"
   },
-  "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f": {
-    "address": "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f",
-    "balance": "580205355915",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "7656193",
-    "maia.csv": "580116497419"
+  "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F": {
+    "address": "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F",
+    "balance": "88858496",
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "7656193"
   },
   "0x1862d3AE3f771c4405fFbc16517Bf16b8ADBB143": {
     "address": "0x1862d3AE3f771c4405fFbc16517Bf16b8ADBB143",
@@ -68,12 +65,10 @@
     "balance": "20414709",
     "totals.json": "20414709"
   },
-  "0x9a044bb887aedc4ac20d32b32acc724a287f2261": {
-    "address": "0x9a044bb887aedc4ac20d32b32acc724a287f2261",
-    "balance": "4194786672916",
-    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "20193853",
-    "maia.csv": "139402225",
-    "sMaia.csv": "4194627076838"
+  "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261": {
+    "address": "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261",
+    "balance": "20193853",
+    "pending_bribes_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "20193853"
   },
   "0xd7a586ce5250befab2cc2239f7226b9602536e6a": {
     "balance": "103660133106024",
@@ -100,6 +95,10 @@
   "0xad988948eb90640c32b9321239d10b3d80f33e76": {
     "balance": "719372687573",
     "maia.csv": "719372687573"
+  },
+  "0x77314eaa8d99c2ad55f3ca6df4300cfc50bdbc7f": {
+    "balance": "580116497419",
+    "maia.csv": "580116497419"
   },
   "0x2f839806d7d2b3e6714c3de23376fa929a037e30": {
     "balance": "432110032139",
@@ -164,6 +163,10 @@
   "0xd211a32199f9a36a9a75a506ee17c4808f9353f1": {
     "balance": "2680691774",
     "maia.csv": "2680691774"
+  },
+  "0x8e4e18fd60c584945beb6ba08771520455dfcae4": {
+    "balance": "2412021412",
+    "maia.csv": "2412021412"
   },
   "0x543178b2da98142bc9d9b8f3aea058f08621de8e": {
     "balance": "2279793713",
@@ -236,6 +239,11 @@
   "0x6e23a7981a7918b7b825a073dd20a4cfc9c1f578": {
     "balance": "142432994",
     "maia.csv": "142432994"
+  },
+  "0x9a044bb887aedc4ac20d32b32acc724a287f2261": {
+    "balance": "4194766479063",
+    "maia.csv": "139402225",
+    "sMaia.csv": "4194627076838"
   },
   "0x96d890a629ec2732bc5145ac34a080ab206b20e8": {
     "balance": "123460900",
@@ -431,6 +439,10 @@
   "0x41c48be013f3896f057785f1f10c05a4451d0af9": {
     "balance": "1",
     "maia.csv": "1"
+  },
+  "0x43ef77ae47f79af5f0c3674ee28ca0fef692a012": {
+    "balance": "2212761262449",
+    "sMaia.csv": "2212761262449"
   },
   "0x29aebe1214d0221603fda429af9ea308a8dad8ef": {
     "balance": "2",

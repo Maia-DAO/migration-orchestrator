@@ -22,7 +22,7 @@ const vaults = [
 ];
 
 const strategies = [
-    "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4 ",
+    "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4",
     "0x438a7172Ed1f444A8Cf1f1642179211E6a6D1d2e",
 ]
 
@@ -640,7 +640,29 @@ const MULTICALL_ABI = [
     }
 ];
 
+const rewardsAmount = []
+const rewards = {}
+
 async function main() {
+
+    // Read and process pending_rewards.json
+    const rewardsData = JSON.parse(fs.readFileSync(`./input_jsons/pending_rewards.json`));
+    rewardsData.forEach(gauge => {
+        gauge.rewards.forEach(reward => {
+            const addr = reward.account;
+
+            if (addr === strategies[0]) {
+                rewardsAmount[0] = parseFloat(JSBI.divide(JSBI.BigInt(reward.pendingReward), JSBI.BigInt(1e18)).toString())
+                console.log("FOUND MAIA LP VAULT REWARDS", rewardsAmount[0])
+            } else if (addr === strategies[1]) {
+                rewardsAmount[1] = parseFloat(JSBI.divide(JSBI.BigInt(reward.pendingReward), JSBI.BigInt(1e18)).toString())
+                console.log("FOUND HERMES LP VAULT REWARDS", rewardsAmount[1])
+            }
+
+
+        });
+    });
+
     for (let i = 0; i < tokenList.length; i++) {
         const balanceInputFile = balanceInputFiles[i];
         const vaultAddress = vaults[i];
@@ -786,25 +808,6 @@ async function processCSV(filename) {
     return outputData
 }
 
-function findSharesByAddress(dataArray, holderAddress) {
-    let results = [];
-
-    // Iterate over each gauge entry in the data array
-    dataArray.forEach(entry => {
-        // Find the stake in the current gauge where the holderAddress matches
-        entry.stakes.forEach(stake => {
-            if (stake.holderAddress.toLowerCase() === holderAddress.toLowerCase()) {
-                results.push({
-                    holderAddress: stake.holderAddress,
-                    stakedBalance: stake.stakedBalance,
-                });
-            }
-        });
-    });
-
-    return results.length > 0 ? results : undefined;
-}
-
 async function processTokenBalancesAndShares(Multicall, accounts, vaultAddress, balance, i) {
 
     const balanceCalls = accounts.map(account => ({
@@ -856,22 +859,41 @@ async function processAndFormatResults(vaultAddress, accounts, returnData, balan
             )).toString()
         })).sort((a, b) => b.shareOfTargetToken - a.shareOfTargetToken);
 
+        // Calculate rewards based on shares
+        shares.forEach((share) => {
+            const address = share.holderAddress;
+            if (!rewards[address]) {
+                rewards[address] = { reward: JSBI.BigInt(0) };  // Ensure initialization with JSBI BigInt
+            }
+            const currentReward = JSBI.BigInt(rewards[address].reward);  // Convert to JSBI BigInt if not already
+            const additionalReward = JSBI.divide(
+                JSBI.multiply(JSBI.BigInt(share.stakedBalance), JSBI.BigInt(rewardsAmount[i])),
+                JSBI.BigInt(totalSupply)
+            );
+
+            if (JSBI.greaterThan(additionalReward, JSBI.BigInt(0))) {
+                // Ensure both operands are JSBI BigInts
+                rewards[address].reward = JSBI.add(currentReward, additionalReward).toString(); // Convert back to string after addition
+            }
+        });
         results.push({
             vault: vaultAddress,
             stakes: shares,
         });
+
     }
+    // console.log("🚀 ~ shares.forEach ~ rewards:", rewards)
 
     const old_csv = await processCSV(inputFiles[i])
 
-    const mergedData = mergeData(old_csv, results, decimals[i]);
-    console.log("🚀 ~ processAndFormatResults ~ mergedData:", mergedData)
+    const mergedData = mergeData(old_csv, results, decimals[i], i == 1);
 
     fs.writeFileSync(outputFiles[i].toString(), mergedData);
     console.log(`Results written to ${outputFiles[i]?.toString()}`);
 }
 
-function mergeData(oldCsv, stakes, divisor) {
+function mergeData(oldCsv, stakes, divisor, checkRewards) {
+    console.log("🚀 ~ mergeData ~ checkRewards:", checkRewards)
     // Convert old_csv to a Map for quick lookup
     const csvMap = new Map(oldCsv.map(item => {
         return [item.address, item.balance]
@@ -882,17 +904,26 @@ function mergeData(oldCsv, stakes, divisor) {
         stake.stakes.forEach(holder => {
             const address = holder.holderAddress.toLowerCase();
             const newBalance = parseInt(JSBI.divide(JSBI.BigInt(holder.shareOfTargetToken), JSBI.BigInt(divisor)).toString());  // Adjust the balance based on decimals
+            let rewardToAdd = 0;
+            console.log("mergeData: rewardToAdd ", address, parseInt(rewards[address].reward))
+
+
+            // Check if we should add rewards from the rewards object
+            if (checkRewards && rewards[address]) {
+                rewardToAdd = parseInt(rewards[address].reward);  // Assuming rewards[address].reward is already a string representing an integer
+                console.log("mergeData: rewardToAdd found for", address, rewardToAdd,rewards[address].reward)
+            }
 
             if (csvMap.has(address)) {
                 // If address exists, update the balance by adding the new balance to the existing one
                 let currentBalance = csvMap.get(address);
-                let updatedBalance = currentBalance + newBalance;
+                let updatedBalance = currentBalance + newBalance + rewardToAdd;
                 csvMap.set(address, updatedBalance);
                 console.log("mergeData: Updated Balance for", address, " from ", currentBalance, " to ", updatedBalance)
             } else {
                 // If address does not exist, add it with the new balance
-                csvMap.set(address, newBalance);
-                console.log("mergeData: Added Balance for", address, " to ", newBalance)
+                csvMap.set(address, newBalance + rewardToAdd);
+                console.log("mergeData: Create Balance for", address, " for ", newBalance)
             }
         })
     });
