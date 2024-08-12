@@ -3,6 +3,8 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const path = require("path");
 const JSBI = require("jsbi");
+const { ethers } = require('ethers');
+
 
 const INPUT_CSV_DIR = "input_csv";
 const OUTPUT_DIR = "consolidated_output";
@@ -34,7 +36,7 @@ async function processCSV(filename, output) {
         })
       )
       .on("data", (row) => {
-        const addr = row["0"];
+        const addr = ethers.utils.getAddress(row["0"]);
         const reward = row["1"];
         if (!results[addr]) {
           results[addr] = { balance: JSBI.BigInt(0) }; // Initialize with a BigInt.
