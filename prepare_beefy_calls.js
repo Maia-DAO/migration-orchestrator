@@ -52,6 +52,8 @@ const stakeOutputFiles = [
     "./consolidated_output/staked_balance_hermes_beefy.json",
 ];
 
+const rewardsOutputFile = "./consolidated_output/beefy_rewards.json";
+
 const MOO_ABI = [
     {
         inputs: [
@@ -734,6 +736,10 @@ async function main() {
             i
         );
     }
+
+    console.log("Saving rewards...");
+    fs.writeFileSync(rewardsOutputFile, JSON.stringify(rewards));
+    console.log("Done.");
 }
 
 async function batchMulticall(Multicall, calls) {
@@ -958,6 +964,7 @@ async function processAndFormatResults(
 
     const mergedData = mergeData(stakeOutputFiles[i].toString(), old_csv, results, decimals[i], i == 1);
 
+    console.log("Saving results...");
     fs.writeFileSync(outputFiles[i].toString(), mergedData);
     console.log(`Results written to ${outputFiles[i]?.toString()}`);
 }
