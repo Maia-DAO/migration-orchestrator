@@ -16,6 +16,7 @@ function update_or_clone_repo() {
         git pull
         # Install or update dependencies
         yarn install
+        forge install
     else
         echo "Cloning repository from $repo_url to $repo_dir"
         # Clone the repository
@@ -23,6 +24,7 @@ function update_or_clone_repo() {
         cd "$repo_dir"
         # Install dependencies
         yarn install
+        forge install
     fi
 
     # Navigate back to the initial directory
