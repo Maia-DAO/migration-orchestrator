@@ -47,6 +47,11 @@ const outputFiles = [
     "./consolidated_output/hermes_and_beefy_calls.csv",
 ];
 
+const stakeOutputFiles = [
+    "./consolidated_output/staked_balance_maia_beefy.json",
+    "./consolidated_output/staked_balance_hermes_beefy.json",
+];
+
 const MOO_ABI = [
     {
         inputs: [
@@ -951,13 +956,18 @@ async function processAndFormatResults(
 
     const old_csv = await processCSV(inputFiles[i]);
 
-    const mergedData = mergeData(old_csv, results, decimals[i], i == 1);
+    const mergedData = mergeData(stakeOutputFiles[i].toString(), old_csv, results, decimals[i], i == 1);
 
     fs.writeFileSync(outputFiles[i].toString(), mergedData);
     console.log(`Results written to ${outputFiles[i]?.toString()}`);
 }
 
-function mergeData(oldCsv, stakes, divisor, checkRewards) {
+function mergeData(file, oldCsv, stakes, divisor, checkRewards) {
+    console.log("Saving stakes...");
+    fs.writeFileSync(file, JSON.stringify(stakes));
+    console.log("Done.");
+
+    console.log("Updating CSV...");
     console.log("🚀 ~ mergeData ~ checkRewards:", checkRewards);
     // Convert old_csv to a Map for quick lookup
     const csvMap = new Map(
