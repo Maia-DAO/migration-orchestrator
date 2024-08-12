@@ -15,7 +15,7 @@ function formatData(data, divisor, outputFilePath) {
   Object.keys(data).forEach((key) => {
     const address = key;
     const balance = parseInt(data[key].balance);
-    const formattedBalance = balance / divisor;
+    const formattedBalance = (balance / divisor).toFixed(9);
     if (formattedBalance > 0.001) {
       outputData += `${address},${formattedBalance}\n`;
     } else {
