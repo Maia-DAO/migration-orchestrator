@@ -691,14 +691,6 @@ async function main() {
         const Vault = new ethers.Contract(vaultAddress, MOO_ABI, provider);
 
         const accounts = await getHolders(Vault, creationBlock, block);
-        // const accounts = [
-        //     '0xd927ce147f098ce634301e6c4281541b1939a132',
-        //     '0x41d44b276904561ac51855159516fd4cb2c90968',
-        //     '0x60837b25506540adcfab339a8ad03a6a1ca7131c',
-        //     '0xb1c5ec4aac5dba3b65511228819229c04cb5f4f3',
-        //     '0xfb53b6b361ca68a76cdcee491eba1dae6aa10a9e',
-        //     '0xd8253ba4a96db2211b132f3a5901bd2373c98693',
-        //     '0xea16545cf2e4c30b38b156cda0972be63ce71d50',]
         console.log("🚀 ~ main ~ accounts:", accounts);
 
         let balance;
@@ -934,9 +926,9 @@ async function processAndFormatResults(
         shares.forEach((share) => {
             const address = share.holderAddress;
             if (!rewards[address]) {
-                rewards[address] = { reward: JSBI.BigInt(0) }; // Ensure initialization with JSBI BigInt
+                rewards[address] = { reward: 0 }; // Ensure initialization 
             }
-            const currentReward = JSBI.BigInt(rewards[address].reward);
+            const currentReward = rewards[address].reward;
 
             // Multiply rewardsAmount by a scaling factor to maintain precision
             const scaledRewardAmount = JSBI.multiply(JSBI.BigInt(rewardsAmount[i]), JSBI.BigInt(1e18));
@@ -951,12 +943,12 @@ async function processAndFormatResults(
             );
 
             // Scale back down by dividing the result by 1e18
-            const finalRewardToAdd = JSBI.divide(additionalReward, JSBI.BigInt(1e18));
+            const finalRewardToAdd = parseInt(additionalReward) / (1e18);
 
-            console.log(`Calculated additionalReward for ${address}: ${finalRewardToAdd.toString()}`);
+            console.log(`Calculated additionalReward for ${address}: ${finalRewardToAdd.toString()} ${additionalReward.toString()}`);
 
             if (JSBI.greaterThan(finalRewardToAdd, JSBI.BigInt(0))) {
-                rewards[address].reward = JSBI.add(currentReward, finalRewardToAdd).toString();
+                rewards[address].reward = currentReward + finalRewardToAdd;
                 console.log(`Updated reward for ${address}: ${rewards[address].reward}`);
             } else {
                 console.log(`Additional reward for ${address} was too small, resulting in 0 after scaling.`);
