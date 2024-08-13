@@ -656,19 +656,19 @@ async function main() {
             const addr = reward.account;
 
             if (addr === strategies[0]) {
-                rewardsAmount[0] = parseFloat(
+                rewardsAmount[0] = (
                     JSBI.divide(
                         JSBI.BigInt(reward.pendingReward),
                         JSBI.BigInt(1e18)
-                    ).toString()
+                    )
                 );
                 console.log("FOUND MAIA LP VAULT REWARDS", rewardsAmount[0]);
             } else if (addr === strategies[1]) {
-                rewardsAmount[1] = parseFloat(
+                rewardsAmount[1] = (
                     JSBI.divide(
                         JSBI.BigInt(reward.pendingReward),
                         JSBI.BigInt(1e18)
-                    ).toString()
+                    )
                 );
                 console.log("FOUND HERMES LP VAULT REWARDS", rewardsAmount[1]);
             }
@@ -936,21 +936,30 @@ async function processAndFormatResults(
             if (!rewards[address]) {
                 rewards[address] = { reward: JSBI.BigInt(0) }; // Ensure initialization with JSBI BigInt
             }
-            const currentReward = JSBI.BigInt(rewards[address].reward); // Convert to JSBI BigInt if not already
+            const currentReward = JSBI.BigInt(rewards[address].reward);
+
+            // Multiply rewardsAmount by a scaling factor to maintain precision
+            const scaledRewardAmount = JSBI.multiply(JSBI.BigInt(rewardsAmount[i]), JSBI.BigInt(1e18));
+
+            // Perform scaled multiplication and division
             const additionalReward = JSBI.divide(
                 JSBI.multiply(
                     JSBI.BigInt(share.stakedBalance),
-                    JSBI.BigInt(rewardsAmount[i])
+                    scaledRewardAmount
                 ),
                 JSBI.BigInt(totalSupply)
             );
 
-            if (JSBI.greaterThan(additionalReward, JSBI.BigInt(0))) {
-                // Ensure both operands are JSBI BigInts
-                rewards[address].reward = JSBI.add(
-                    currentReward,
-                    additionalReward
-                ).toString(); // Convert back to string after addition
+            // Scale back down by dividing the result by 1e18
+            const finalRewardToAdd = JSBI.divide(additionalReward, JSBI.BigInt(1e18));
+
+            console.log(`Calculated additionalReward for ${address}: ${finalRewardToAdd.toString()}`);
+
+            if (JSBI.greaterThan(finalRewardToAdd, JSBI.BigInt(0))) {
+                rewards[address].reward = JSBI.add(currentReward, finalRewardToAdd).toString();
+                console.log(`Updated reward for ${address}: ${rewards[address].reward}`);
+            } else {
+                console.log(`Additional reward for ${address} was too small, resulting in 0 after scaling.`);
             }
         });
         results.push({
@@ -958,7 +967,6 @@ async function processAndFormatResults(
             stakes: shares,
         });
     }
-    // console.log("🚀 ~ shares.forEach ~ rewards:", rewards)
 
     const old_csv = await processCSV(inputFiles[i]);
 
@@ -972,87 +980,61 @@ async function processAndFormatResults(
 function mergeData(file, oldCsv, stakes, divisor, checkRewards) {
     console.log("Saving stakes...");
     fs.writeFileSync(file, JSON.stringify(stakes));
-    console.log("Done.");
+    console.log("Stakes saved to file:", file);
 
-    console.log("Updating CSV...");
+    console.log("Updating CSV with new balances and rewards...");
     console.log("🚀 ~ mergeData ~ checkRewards:", checkRewards);
-    // Convert old_csv to a Map for quick lookup
-    const csvMap = new Map(
-        oldCsv.map((item) => {
-            return [item.address, item.balance];
-        })
-    );
 
-    // Iterate over stakes and update/add data
-    stakes.forEach((stake) => {
-        stake.stakes.forEach((holder) => {
+    // Using floating-point numbers for calculations
+    const csvMap = new Map(oldCsv.map(item => {
+        const parsedBalance = parseFloat(item.balance);
+        console.log(`Loaded balance for ${item.address}: ${parsedBalance}`);
+        return [item.address, parsedBalance]; // Keep as float
+    }));
+
+    stakes.forEach(stake => {
+        console.log(`Processing stake for vault: ${stake.vault}`);
+        stake.stakes.forEach(holder => {
             const address = ethers.utils.getAddress(holder.holderAddress);
-            const newBalance = parseInt(
-                JSBI.divide(
-                    JSBI.BigInt(holder.shareOfTargetToken),
-                    JSBI.BigInt(divisor)
-                ).toString()
-            ); // Adjust the balance based on decimals
+            const newBalance = parseFloat(JSBI.divide(
+                JSBI.BigInt(holder.shareOfTargetToken),
+                JSBI.BigInt(divisor)
+            ).toString());
 
-
-            if (newBalance > 0) {
-                console.log(
-                    "mergeData: newBalance found for",
-                    address,
-                    newBalance,
-                );
-            }
+            console.log(`New balance for ${address} (after divisor ${divisor}): ${newBalance}`);
 
             let rewardToAdd = 0;
-
-            // Check if we should add rewards from the rewards object
             if (checkRewards && rewards[address]) {
-                rewardToAdd = parseInt(rewards[address].reward); // Assuming rewards[address].reward is already a string representing an integer
-                console.log(
-                    "mergeData: rewardToAdd found for",
-                    address,
-                    rewardToAdd,
-                    rewards[address].reward
-                );
+                rewardToAdd = parseFloat(rewards[address].reward);
+                console.log(`Reward to add for ${address}: ${rewardToAdd}`);
             }
 
+            const totalBalance = newBalance + rewardToAdd;
+            console.log(`Total balance for ${address} (new balance + reward): ${totalBalance}`);
+
             if (csvMap.has(address)) {
-                // If address exists, update the balance by adding the new balance to the existing one
-                let currentBalance = parseInt(csvMap.get(address));
-                let updatedBalance = currentBalance + newBalance + rewardToAdd;
-                csvMap.set(address, updatedBalance.toFixed(9));
-                console.log(
-                    "mergeData: Updated Balance for",
-                    address,
-                    " from ",
-                    currentBalance,
-                    " to ",
-                    updatedBalance
-                );
+                const currentBalance = csvMap.get(address);
+                const updatedBalance = currentBalance + totalBalance;
+                console.log(`Updated balance for ${address}: ${currentBalance} + ${totalBalance} = ${updatedBalance}`);
+                csvMap.set(address, updatedBalance.toFixed(9)); // To ensure consistent decimal places
             } else {
-                // If address does not exist, add it with the new balance
-                csvMap.set(address, (newBalance + rewardToAdd).toFixed(9));
-                console.log(
-                    "mergeData: Create Balance for",
-                    address,
-                    " for ",
-                    newBalance
-                );
+                console.log(`Creating new balance entry for ${address}: ${totalBalance}`);
+                csvMap.set(address, totalBalance.toFixed(9));
             }
         });
     });
 
     let outputData = "";
+    console.log("Generating output data...");
 
-    Array.from(csvMap, ([address, balance]) => ({
-        address,
-        balance,
-    }))
-        .sort((a, b) => b.balance - a.balance)
-        .forEach(
-            ({ address, balance }) => (outputData += `${address},${balance}\n`)
-        );
+    Array.from(csvMap.entries())
+        .sort((a, b) => parseFloat(b[1]) - parseFloat(a[1]))
+        .forEach(([address, balance]) => {
+            console.log(`Address: ${address}, Final Balance: ${balance}`);
+            outputData += `${address},${balance}\n`;
+        });
 
+    console.log("Output data generation complete.");
     return outputData;
 }
 
