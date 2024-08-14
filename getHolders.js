@@ -9,21 +9,21 @@ const MIGRATION_BLOCK = 18011710;
 const MULTICALL_ADDRESS = "0x5D78bF8f79A66e43f5932c1Ae0b8fA6563F97f74";
 const BATCH_SIZE = 100;
 const TOKEN_LIST = [
-  //   {
-  //     address: "0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD",
-  //     creationBlock: 181136,
-  //     outputFile: "./consolidated_output/maia_new.csv",
-  //   },
-  //   {
-  //     address: "0xb27BbeaACA2C00d6258C3118BAB6b5B6975161c8",
-  //     creationBlock: 1324876,
-  //     outputFile: "./consolidated_output/hermes_new.csv",
-  //   },
-  //   {
-  //     address: "0xaFF73f55968Ab4b276a26E574c96e09A615b13d6",
-  //     creationBlock: 1283785,
-  //     outputFile: "./consolidated_output/starHermes_new.csv",
-  //   },
+  {
+    address: "0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD",
+    creationBlock: 181136,
+    outputFile: "./consolidated_output/maia_new.csv",
+  },
+  {
+    address: "0xb27BbeaACA2C00d6258C3118BAB6b5B6975161c8",
+    creationBlock: 1324876,
+    outputFile: "./consolidated_output/hermes_new.csv",
+  },
+  {
+    address: "0xaFF73f55968Ab4b276a26E574c96e09A615b13d6",
+    creationBlock: 1283785,
+    outputFile: "./consolidated_output/starHermes_new.csv",
+  },
   {
     address: "0xD7a586CE5250bEfaB2cc2239F7226B9602536E6A",
     creationBlock: 3522043,
