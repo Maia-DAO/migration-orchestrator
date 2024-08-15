@@ -8,7 +8,7 @@ CONSOLIDATED_OUTPUT_DIR="consolidated_output"
 ./clone_and_setup.sh
 
 # Step 2: Run scripts
-# ./run_all_scripts.sh
+./run_all_scripts.sh
 
 # Step 3: Update inputs
 ./update_input_jsons.sh

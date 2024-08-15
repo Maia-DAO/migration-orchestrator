@@ -1,0 +1,572 @@
+[
+  {
+    "gauge": "0x975706b498E43E3c8c5775B3C881566db8a78c67",
+    "rewards": [
+      {
+        "account": "0xe5b9375236e7dCA6D1213D37918880bdC3c41754",
+        "token": "108",
+        "pendingReward": "153730"
+      },
+      {
+        "account": "0xc251198451Af8718aC4B574aF5D30D157c6Ed8b0",
+        "token": "218",
+        "pendingReward": "2905447"
+      },
+      {
+        "account": "0x749d2C4FdFA0b60595dbacD52e9092B30e9EAA32",
+        "token": "1722",
+        "pendingReward": "97973407"
+      },
+      {
+        "account": "0x166f832E6D68933A10D0b62D18BaCbBBf9Fb0cb6",
+        "token": "621",
+        "pendingReward": "53376"
+      },
+      {
+        "account": "0x28779a01FD733B8fd3EA549E072D6E47C251cE9E",
+        "token": "623",
+        "pendingReward": "78561681"
+      },
+      {
+        "account": "0x8d4fEd9eaF5c7da0b08209e2fde9e80db6aF6969",
+        "token": "642",
+        "pendingReward": "19774829"
+      },
+      {
+        "account": "0x8745Fe1AE9738aAeC591aA6322D86B1263910f47",
+        "token": "1152",
+        "pendingReward": "1224529"
+      },
+      {
+        "account": "0x1CA87c49C80bE3B5B79DA3Ca1d46D7304146a270",
+        "token": "1063",
+        "pendingReward": "12998408"
+      },
+      {
+        "account": "0xA7069a982514AFFbB636022236deDe5b58592d56",
+        "token": "1095",
+        "pendingReward": "10784383"
+      },
+      {
+        "account": "0xFCb2015B8B9A22F1F34F96718A5F4707aBf277D5",
+        "token": "1094",
+        "pendingReward": "536786"
+      },
+      {
+        "account": "0xa591a80134B85ED03B987d1a6D0F1b1D10a54799",
+        "token": "1233",
+        "pendingReward": "776353"
+      },
+      {
+        "account": "0xe3abFa7745b463BDe635FfD59456f4792b556e0e",
+        "token": "1378",
+        "pendingReward": "7376740"
+      },
+      {
+        "account": "0x48fD51a35442b5a0E16c2556Df10d32d5160FcCA",
+        "token": "3534",
+        "pendingReward": "473987"
+      },
+      {
+        "account": "0x9Eba4ec7c8854Ddd7eD59525e021Ed64ec6D0e35",
+        "token": "2028",
+        "pendingReward": "20824869"
+      },
+      {
+        "account": "0x9Eba4ec7c8854Ddd7eD59525e021Ed64ec6D0e35",
+        "token": "3350",
+        "pendingReward": "23251196"
+      },
+      {
+        "account": "0x8A93C306BA61B43c595Dd3cAcC85F7a903BC25E7",
+        "token": "3325",
+        "pendingReward": "747376"
+      },
+      {
+        "account": "0xB05Cf01231cF2fF99499682E64D3780d57c80FdD",
+        "token": "1640",
+        "pendingReward": "14702098"
+      },
+      {
+        "account": "0x065ACFE293418B1AD6b8a778052A9bb3EfD91BE4",
+        "token": "2605",
+        "pendingReward": "47830143"
+      },
+      {
+        "account": "0xC620b2893dd5fee2D0124Aae20A2ed825D7f5914",
+        "token": "2380",
+        "pendingReward": "22643"
+      },
+      {
+        "account": "0x8AcF2f327e47FdDD1124a55eb4eFC1DfdAcAA34c",
+        "token": "2803",
+        "pendingReward": "7847438"
+      },
+      {
+        "account": "0xfBF38166B57e82D81cC6090Cec1584e327a066D7",
+        "token": "3144",
+        "pendingReward": "4765039"
+      },
+      {
+        "account": "0xa680af7FEf0F13d59F1a392B8f2eC45304Bd9D0A",
+        "token": "3386",
+        "pendingReward": "3421025"
+      },
+      {
+        "account": "0xE7Ce11f4B1cFD8e607b0Ca64823ad645f260BaDc",
+        "token": "3504",
+        "pendingReward": "263398729"
+      }
+    ]
+  },
+  {
+    "gauge": "0x528c90238C612d3d827F7C866b5708C3B0d315e6",
+    "rewards": [
+      {
+        "account": "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F",
+        "token": "2",
+        "pendingReward": "1096231102"
+      },
+      {
+        "account": "0xCba1A275e2D858EcffaF7a87F606f74B719a8A93",
+        "token": "62",
+        "pendingReward": "31124819"
+      },
+      {
+        "account": "0xF5f61157f3c13e4bbC5C42E75Ae80946b72de83F",
+        "token": "78",
+        "pendingReward": "2215960"
+      },
+      {
+        "account": "0xF5f61157f3c13e4bbC5C42E75Ae80946b72de83F",
+        "token": "496",
+        "pendingReward": "6759111"
+      },
+      {
+        "account": "0xA618f8841E70B0543A921768ea5B229eCD9A4ba8",
+        "token": "105",
+        "pendingReward": "26895"
+      },
+      {
+        "account": "0x1FdDE9A4303461af947dD6f6ED5d6F3f6578Ef97",
+        "token": "142",
+        "pendingReward": "499"
+      },
+      {
+        "account": "0x15CCa5ff0bb71827FdAD1d5D82C7E045F27E20a9",
+        "token": "143",
+        "pendingReward": "6005"
+      },
+      {
+        "account": "0x1c6e11ebfe3D1c68de4c316214Ff29DAB03F780F",
+        "token": "158",
+        "pendingReward": "3647063"
+      },
+      {
+        "account": "0xa7c7D4A49c3e4E5F783c56a95fB3D9600965E991",
+        "token": "1631",
+        "pendingReward": "912436"
+      },
+      {
+        "account": "0x0079CE80043EDc3325598e4A3b6293ab779bf174",
+        "token": "219",
+        "pendingReward": "6153402"
+      },
+      {
+        "account": "0x4b0bAF31ce22FE18331cCfd27ad9074Da8E64ccd",
+        "token": "929",
+        "pendingReward": "22671865"
+      },
+      {
+        "account": "0xa12BAb282ee6C987745aD85DD4ac97eB067bC5A1",
+        "token": "840",
+        "pendingReward": "118765"
+      },
+      {
+        "account": "0x3431Bbbfdf64EbbF516b54293980d642B3D07867",
+        "token": "2630",
+        "pendingReward": "1036921"
+      },
+      {
+        "account": "0xfF807487542b792B1af9c7ed8369130832a5570B",
+        "token": "1016",
+        "pendingReward": "101668"
+      },
+      {
+        "account": "0xca44271A10a1B24BDa177800BecCBE9a1bc2165e",
+        "token": "705",
+        "pendingReward": "2500653"
+      },
+      {
+        "account": "0xdede8d8486bdf025C5b6a7C26cA2B702DA66f047",
+        "token": "851",
+        "pendingReward": "873268"
+      },
+      {
+        "account": "0x8e534a77915156626DF46A8F32fD050a39697b99",
+        "token": "1020",
+        "pendingReward": "269113"
+      },
+      {
+        "account": "0x4336EAe166D2625809F40762B3539657c9a094CD",
+        "token": "540",
+        "pendingReward": "586510"
+      },
+      {
+        "account": "0x40a31D72a1360C9FB42B5126915B60d26A4870E5",
+        "token": "954",
+        "pendingReward": "40075"
+      },
+      {
+        "account": "0xdBEB2c119D9B42A68459aAe8563e4DB26590f4F6",
+        "token": "636",
+        "pendingReward": "3990851"
+      },
+      {
+        "account": "0x247bc6556B5d14416332575eBC6a2e65D9DB3109",
+        "token": "648",
+        "pendingReward": "511145"
+      },
+      {
+        "account": "0xEcDEB1FFd6A819C7FB6834559D6eFbe80c946Ec1",
+        "token": "698",
+        "pendingReward": "189278"
+      },
+      {
+        "account": "0x8a0471a5cFBd904599dF7153c695C886a779A719",
+        "token": "987",
+        "pendingReward": "29442559"
+      },
+      {
+        "account": "0x163a4D04A51c006e7F107aB0bb615e1454393D54",
+        "token": "887",
+        "pendingReward": "2498941"
+      },
+      {
+        "account": "0x21E7f980C2BFb1eF908f68E92F791147856Ef26C",
+        "token": "898",
+        "pendingReward": "17180049"
+      },
+      {
+        "account": "0xAE7db7c7293e7aaB26421cf022F334123d483A5D",
+        "token": "910",
+        "pendingReward": "873915"
+      },
+      {
+        "account": "0xCCBACFb0B8338D7f61bF3dA640cc0FA8894FB46c",
+        "token": "934",
+        "pendingReward": "43096"
+      },
+      {
+        "account": "0xf6aeF1044028907C86EB8581b1671e924392D3b4",
+        "token": "935",
+        "pendingReward": "32113850"
+      },
+      {
+        "account": "0x29d9E45c8a766AfDae6f2596162A02C51D434B8B",
+        "token": "959",
+        "pendingReward": "2369129"
+      },
+      {
+        "account": "0xB162A8693375AcAfB011DE6123a7d7425101e20D",
+        "token": "1023",
+        "pendingReward": "186307895"
+      },
+      {
+        "account": "0xdA33159c5B40aaCab3c60aCd98C93811b503016a",
+        "token": "1034",
+        "pendingReward": "5283"
+      },
+      {
+        "account": "0x0859E983C622D9c9750827FC8df33681397CD11f",
+        "token": "1051",
+        "pendingReward": "5116857"
+      },
+      {
+        "account": "0xFCb2015B8B9A22F1F34F96718A5F4707aBf277D5",
+        "token": "1094",
+        "pendingReward": "125228"
+      },
+      {
+        "account": "0xb0B215d519d9c48ebF0211C38Ee3517e5136606D",
+        "token": "3612",
+        "pendingReward": "13070"
+      },
+      {
+        "account": "0xe6F07Aef98D2bB3F6105a529FC049B1295a578A7",
+        "token": "1188",
+        "pendingReward": "793715"
+      },
+      {
+        "account": "0x6eDD738C1C3e6ad5986CF1a1ABEC6d374A8fc196",
+        "token": "1413",
+        "pendingReward": "1079066"
+      },
+      {
+        "account": "0x4142e7B1E829Cf498BF3017B8F964e6eD293FfD4",
+        "token": "1244",
+        "pendingReward": "4119316"
+      },
+      {
+        "account": "0x1f549f06A9f16B599cB5b42baaF4D34A8C9dfc53",
+        "token": "1287",
+        "pendingReward": "551642"
+      },
+      {
+        "account": "0x46a55c69DF09671cDAcCa83CBf7882A81aCCeB03",
+        "token": "1370",
+        "pendingReward": "209617"
+      },
+      {
+        "account": "0xe3abFa7745b463BDe635FfD59456f4792b556e0e",
+        "token": "1378",
+        "pendingReward": "2294607"
+      },
+      {
+        "account": "0xE2AA2846481BAA23e4030099233b4041C8D1A0E4",
+        "token": "1401",
+        "pendingReward": "236513"
+      },
+      {
+        "account": "0x8e8c1C03C48E8263B3daCb161a582946CFd87A72",
+        "token": "1556",
+        "pendingReward": "106130"
+      },
+      {
+        "account": "0xd74C648f034AACA8aC1b9909f7C47B742C48090D",
+        "token": "1443",
+        "pendingReward": "1809170"
+      },
+      {
+        "account": "0xeBeb2d365Fa5FF997c0D74022da9FEb000526dC0",
+        "token": "2385",
+        "pendingReward": "1451022"
+      },
+      {
+        "account": "0x8A93C306BA61B43c595Dd3cAcC85F7a903BC25E7",
+        "token": "3814",
+        "pendingReward": "22924"
+      },
+      {
+        "account": "0xaD63E4d4Be2229B080d20311c1402A2e45Cf7E75",
+        "token": "1576",
+        "pendingReward": "2455114"
+      },
+      {
+        "account": "0xe98659f19aC46d515877f1DCB5d7EDE77a0B61C3",
+        "token": "1655",
+        "pendingReward": "2057330"
+      },
+      {
+        "account": "0x86b02e49aDc3FBf386F82759f89A15d5b29F52D6",
+        "token": "1979",
+        "pendingReward": "8746728"
+      },
+      {
+        "account": "0xB6026afA87C6bc0536F7a57B64Ac85a6b7d9F66a",
+        "token": "1980",
+        "pendingReward": "529157"
+      },
+      {
+        "account": "0x971ea71D5A18D6c18c9Ec51d31100bC6F0c43eb2",
+        "token": "1990",
+        "pendingReward": "147729"
+      },
+      {
+        "account": "0xFAc4e3767b7fE70a55E894B644AbdaCbc2f84125",
+        "token": "1993",
+        "pendingReward": "43261"
+      },
+      {
+        "account": "0x435DD4DED853E126b27DDB62DBad5B619F891639",
+        "token": "2019",
+        "pendingReward": "2665676"
+      },
+      {
+        "account": "0xa8095Ca22f86F45D9a47c1782363fCeDE1b1A003",
+        "token": "2152",
+        "pendingReward": "15709"
+      },
+      {
+        "account": "0xC620b2893dd5fee2D0124Aae20A2ed825D7f5914",
+        "token": "2380",
+        "pendingReward": "123295"
+      },
+      {
+        "account": "0xB32d2DDbbcc4C3e44E601C131cFeEa104d0485f5",
+        "token": "2797",
+        "pendingReward": "241639"
+      },
+      {
+        "account": "0xf8620E5bAB4785dE3591eA537C349B78DcB19886",
+        "token": "2854",
+        "pendingReward": "210746"
+      },
+      {
+        "account": "0x6Fb162107956E43F54E9e360cF432EdbEb832DFb",
+        "token": "2988",
+        "pendingReward": "1552407"
+      },
+      {
+        "account": "0xc59df7977b85b2175cd0554FFD8c30F4d8D9BA2B",
+        "token": "2993",
+        "pendingReward": "67670"
+      },
+      {
+        "account": "0xE2a83367b00D7A446069CF954A54fC1695469270",
+        "token": "3119",
+        "pendingReward": "289948"
+      },
+      {
+        "account": "0xfBF38166B57e82D81cC6090Cec1584e327a066D7",
+        "token": "3144",
+        "pendingReward": "1183281"
+      },
+      {
+        "account": "0xbEC057D76D197eE79D1C63ab42C29f9419499aA9",
+        "token": "3214",
+        "pendingReward": "226664"
+      },
+      {
+        "account": "0x76d8Ad69D7695c9621453Cb768D73F7060e4f9A8",
+        "token": "3318",
+        "pendingReward": "1053"
+      },
+      {
+        "account": "0x48e777e5D04b6c67d438f7e3bB093C80c2C3109A",
+        "token": "3422",
+        "pendingReward": "194788"
+      },
+      {
+        "account": "0x83F919012A3e769F18B58a212Fbe904e66d2F2c4",
+        "token": "3402",
+        "pendingReward": "25168371"
+      },
+      {
+        "account": "0x473d3a2005499301Dc353AFa9D0C9c5980b5188c",
+        "token": "1294",
+        "pendingReward": "13140454"
+      },
+      {
+        "account": "0x2EA2ce595Bd68a0CD1FD34b06dF98970952Fe4D2",
+        "token": "3655",
+        "pendingReward": "4779447"
+      },
+      {
+        "account": "0x1b1A28d0b03a0197B53a420cb48d2bd77a762B61",
+        "token": "908",
+        "pendingReward": "1177977"
+      },
+      {
+        "account": "0xE69df1d22D1698b2791478c82bd28Aae8D98625A",
+        "token": "3827",
+        "pendingReward": "171708"
+      },
+      {
+        "account": "0x3E85ec9f9E5C6df974A8BE4E2616A7D5FbCa166f",
+        "token": "3874",
+        "pendingReward": "252109"
+      },
+      {
+        "account": "0xD8c84eaC995150662CC052E6ac76Ec184fcF1122",
+        "token": "3916",
+        "pendingReward": "69279"
+      },
+      {
+        "account": "0x3995561C7b6D341c7Be962026594A5960Ab7281D",
+        "token": "4010",
+        "pendingReward": "184486"
+      }
+    ]
+  },
+  {
+    "gauge": "0x2D678cd60B3dbE879d003Cb4f7aA039dc82Df9d0",
+    "rewards": [
+      {
+        "account": "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F",
+        "token": "2",
+        "pendingReward": "86132181"
+      },
+      {
+        "account": "0x1f549f06A9f16B599cB5b42baaF4D34A8C9dfc53",
+        "token": "1287",
+        "pendingReward": "16633999"
+      },
+      {
+        "account": "0x8A93C306BA61B43c595Dd3cAcC85F7a903BC25E7",
+        "token": "3325",
+        "pendingReward": "144512"
+      },
+      {
+        "account": "0xB05Cf01231cF2fF99499682E64D3780d57c80FdD",
+        "token": "1640",
+        "pendingReward": "946914"
+      },
+      {
+        "account": "0xC620b2893dd5fee2D0124Aae20A2ed825D7f5914",
+        "token": "2380",
+        "pendingReward": "48746"
+      },
+      {
+        "account": "0x94733CFEB488d15ED3e33ffaC76B9e7C2ae23Cf4",
+        "token": "2685",
+        "pendingReward": "16450197"
+      },
+      {
+        "account": "0xa680af7FEf0F13d59F1a392B8f2eC45304Bd9D0A",
+        "token": "3386",
+        "pendingReward": "3744786"
+      }
+    ]
+  },
+  {
+    "gauge": "0x73c1aB2D75a36f2157F4345c0fFa6F79f050A6B1",
+    "rewards": [
+      {
+        "account": "0xC1d3Ea62c105C8341de29C9B463Ac46A425b14cF",
+        "token": "871",
+        "pendingReward": "221865"
+      },
+      {
+        "account": "0xAf798D139045d88c5584027BD3c24a7Efa3d51A8",
+        "token": "2603",
+        "pendingReward": "53443"
+      },
+      {
+        "account": "0x1f549f06A9f16B599cB5b42baaF4D34A8C9dfc53",
+        "token": "1287",
+        "pendingReward": "36756"
+      },
+      {
+        "account": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
+        "token": "980",
+        "pendingReward": "21691827"
+      },
+      {
+        "account": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
+        "token": "47",
+        "pendingReward": "16940371"
+      },
+      {
+        "account": "0x75B8De0d2919730953e6BD14aDe84f3A506dF510",
+        "token": "3800",
+        "pendingReward": "29"
+      },
+      {
+        "account": "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261",
+        "token": "3797",
+        "pendingReward": "22784713"
+      },
+      {
+        "account": "0x270B1908B77eb397d4e67aBcBdb997B25097FD28",
+        "token": "3920",
+        "pendingReward": "2260"
+      },
+      {
+        "account": "0x6288D7E2910B20527938FA389D2D164cC00924a7",
+        "token": "3495",
+        "pendingReward": "311545"
+      }
+    ]
+  }
+]

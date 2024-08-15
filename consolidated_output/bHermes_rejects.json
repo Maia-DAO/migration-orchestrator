@@ -1,70 +1,70 @@
 {
   "0": {
     "address": "0x0034C0abE9192C4CBFbB4662f2aB7c491F7bf25e",
-    "balance": "4972749168575601092591616",
-    "totals.json": "4972749168575601092591616"
+    "balance": "2394093196792423956611072",
+    "totals.json": "2394093196792423956611072"
   },
   "1": {
     "address": "0x7413a9Fa281091ED98b538B1C9c662aeD3530429",
-    "balance": "113642251473850744832",
-    "totals.json": "113642251473850744832"
+    "balance": "116010715418980270080",
+    "totals.json": "116010715418980270080"
   },
   "2": {
     "address": "0xabdDB8FA8c39d3FC07611ff006499D54032F5332",
-    "balance": "9164",
-    "totals.json": "9164"
+    "balance": "9375",
+    "totals.json": "9375"
   },
   "3": {
-    "balance": "4993113427939393149850897",
-    "starHermes.csv": "4993113427939393149850897"
+    "balance": "2426445090228382766653850",
+    "starHermes.csv": "2426445090228382766653850"
   },
   "4": {
-    "balance": "74079797839735384763",
-    "starHermes.csv": "74079797839735384763"
+    "balance": "3554453478253616688179",
+    "starHermes.csv": "3554453478253616688179"
   },
   "5": {
-    "balance": "3481886087582163146789",
-    "starHermes.csv": "3481886087582163146789"
-  },
-  "6": {
-    "balance": "11897654838158176642",
-    "starHermes.csv": "11897654838158176642"
-  },
-  "7": {
     "balance": "1418250912817727912282",
     "starHermes.csv": "1418250912817727912282"
   },
-  "8": {
+  "6": {
     "balance": "378420891135997908764",
     "starHermes.csv": "378420891135997908764"
   },
-  "9": {
-    "balance": "4447766220484993631",
-    "starHermes.csv": "4447766220484993631"
+  "7": {
+    "balance": "179164676244476517427",
+    "starHermes.csv": "179164676244476517427"
   },
-  "10": {
+  "8": {
     "balance": "15351486544002518894",
     "starHermes.csv": "15351486544002518894"
   },
-  "11": {
-    "balance": "4687003535112493",
-    "starHermes.csv": "4687003535112493"
+  "9": {
+    "balance": "11929078945004567793",
+    "starHermes.csv": "11929078945004567793"
   },
-  "12": {
+  "10": {
+    "balance": "4447766220484993631",
+    "starHermes.csv": "4447766220484993631"
+  },
+  "11": {
     "balance": "4990036073406596",
     "starHermes.csv": "4990036073406596"
   },
+  "12": {
+    "balance": "4687003535112493",
+    "starHermes.csv": "4687003535112493"
+  },
   "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F": {
     "address": "0x77314eAA8D99C2Ad55f3ca6dF4300CFC50BdBC7F",
-    "balance": "121430054813221827256263845",
+    "balance": "121430064833762779981811677",
     "locked_balances.json": "121429130573379529593748673",
-    "pending_bribes_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "921125400837799811",
+    "pending_bribes_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "10941666353563347643",
     "starHermes.csv": "923318716896824715361"
   },
   "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261": {
     "address": "0x9A044Bb887aEdC4ac20D32B32acC724a287f2261",
-    "balance": "5506878561612422565445207",
-    "locked_balances.json": "5506878561612422565445207"
+    "balance": "5517155634399425157553868",
+    "locked_balances.json": "5517155634399425157553868"
   },
   "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012": {
     "address": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
@@ -78,9 +78,9 @@
   },
   "0xC941aa67643B3B54531d70d19fB34ed287f32171": {
     "address": "0xC941aa67643B3B54531d70d19fB34ed287f32171",
-    "balance": "100543925673864616296602",
+    "balance": "102096281226516696326249",
     "locked_balances.json": "33005645306936017374261",
-    "staked_balance_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "67538280366928598922341"
+    "staked_balance_0xaFF73f55968Ab4b276a26E574c96e09A615b13d6.json": "69090635919580678951988"
   },
   "0x82524ebF9e5e0D793B4Dd3E920Ab430aC94c5F3B": {
     "address": "0x82524ebF9e5e0D793B4Dd3E920Ab430aC94c5F3B",
@@ -100,27 +100,13 @@
     "balance": "1543701386609527519744390",
     "starHermes.csv": "1543701386609527519744390"
   },
-  "0x5240A5AdDaBa466b42C9B9E5e95DfB6fbfd9CB07": {
-    "balance": "0"
-  },
   "0xc45ed628997daEa764f2e0aD308E3D12D3F8D383": {
     "balance": "46194896708443537355567",
     "starHermes.csv": "46194896708443537355567"
   },
-  "0x95Fe0126EC8c363B57e25a38b8cD55012e8163e0": {
-    "balance": "0"
-  },
-  "0x17bfA5664a93AD1FB0f05fEd1fF0d9e027562c43": {
-    "balance": "0"
-  },
-  "0x1dB010A0bDf0304F0D55970020f90000900f1D66": {
-    "balance": "0"
-  },
-  "0x0bbAC9F84eB13fdF1513D3EFFb90B29604E28dAb": {
-    "balance": "0"
-  },
-  "0xAfCB0803F96dC1e9768d14ce55b1a46b26deb24c": {
-    "balance": "0"
+  "0x177e51Df107BD7b624e6278b34Fe3620E061E459": {
+    "balance": "167547105000000000000",
+    "starHermes.csv": "167547105000000000000"
   },
   "0x8883E424d966a3031973688E4fa35f89FC16a9F9": {
     "balance": "27484211242215034000",
@@ -133,27 +119,5 @@
   "0xAE77D5b8358Bf921a38B7FdCb712b3cbf9Afbd3c": {
     "balance": "1",
     "starHermes.csv": "1"
-  },
-  "0x5f899EfE0e895e5eFA272b4fB282583bC2F5e4dA": {
-    "balance": "0"
-  },
-  "0x9B68f85cef078008bA3D0d4099C455826f1D795a": {
-    "balance": "0"
-  },
-  "0x5bb368Deb11638B2cc10489F27e0601E9898Cb8C": {
-    "balance": "0"
-  },
-  "0x177e51Df107BD7b624e6278b34Fe3620E061E459": {
-    "balance": "167547105000000000000",
-    "starHermes.csv": "167547105000000000000"
-  },
-  "0xdBB7333893EBDA3A9d11140e6Df2E94AEa200195": {
-    "balance": "0"
-  },
-  "0x0000000000924fb1969e719edeD2feD54AFB183A": {
-    "balance": "0"
-  },
-  "0xde53DC90bdE86486ce10758a44710b38d4D7cE57": {
-    "balance": "0"
   }
 }
