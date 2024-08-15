@@ -4,6 +4,12 @@
     "balance": "5911864294463",
     "totals.json": "5911864294463"
   },
+  "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4": {
+    "address": "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4",
+    "balance": "4160596262831",
+    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "4158183105758",
+    "maia.csv": "2413157073"
+  },
   "0x73c1aB2D75a36f2157F4345c0fFa6F79f050A6B1": {
     "address": "0x73c1aB2D75a36f2157F4345c0fFa6F79f050A6B1",
     "balance": "955784912558",
@@ -30,6 +36,16 @@
     "balance": "1185",
     "totals.json": "1",
     "maia.csv": "1184"
+  },
+  "0xD7a586CE5250bEfaB2cc2239F7226B9602536E6A": {
+    "balance": "85420238242523",
+    "maia.csv": "85419238242523",
+    "sMaia.csv": "1000000000"
+  },
+  "0xE2546b144eFc3F8bd85d84b6CA64cC4F033c9be1": {
+    "balance": "84853789615972921",
+    "maia.csv": "6321616476541",
+    "old_sMaia.csv": "84847467999496380"
   },
   "0xa3E8e7EB4649fFC6f3cBE42B4C2ECf6625d3e802": {
     "balance": "5980825223487",
@@ -197,12 +213,6 @@
     "balance": "1126512",
     "old_sMaia.csv": "1126512"
   },
-  "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4": {
-    "address": "0x8e4E18Fd60C584945Beb6BA08771520455DfcAE4",
-    "balance": "4160596262831",
-    "staked_balance_0x72c232D56542Ba082592DEE7C77b1C6CFA758BCD.json": "4158183105758",
-    "maia.csv": "2413157073"
-  },
   "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012": {
     "address": "0x43ef77Ae47f79AF5f0C3674eE28Ca0fEf692a012",
     "balance": "2431356067402",
@@ -242,16 +252,6 @@
     "address": "0x0018E16c6a08034190973beE627b90995f017A82",
     "balance": "19002452",
     "totals.json": "19002452"
-  },
-  "0xD7a586CE5250bEfaB2cc2239F7226B9602536E6A": {
-    "balance": "85420238242523",
-    "maia.csv": "85419238242523",
-    "sMaia.csv": "1000000000"
-  },
-  "0xE2546b144eFc3F8bd85d84b6CA64cC4F033c9be1": {
-    "balance": "84853789615972921",
-    "maia.csv": "6321616476541",
-    "old_sMaia.csv": "84847467999496380"
   },
   "0xA12a131C6a178F3cAD1203A3016b8dA475D6E42B": {
     "balance": "360100000000",
