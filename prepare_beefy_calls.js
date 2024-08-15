@@ -8,7 +8,7 @@ const provider = new ethers.providers.JsonRpcProvider(
     "https://metis-mainnet.g.alchemy.com/v2/FWmhvca-2KGl6D1o9YcToyEeO8Lmshcy"
 );
 
-const MIGRATION_BLOCK = 18011710;
+const MIGRATION_BLOCK = 18097914;
 
 const voterAddress = "0x879828da3a678D349A3C8d6B3D9C78e9Ee31137F";
 const multicallAddress = "0x5D78bF8f79A66e43f5932c1Ae0b8fA6563F97f74";

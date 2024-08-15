@@ -5,7 +5,7 @@ const JSBI = require("jsbi");
 // Configuration and Constants
 const PROVIDER_URL =
   "https://metis-mainnet.g.alchemy.com/v2/FWmhvca-2KGl6D1o9YcToyEeO8Lmshcy";
-const MIGRATION_BLOCK = 18011710;
+const MIGRATION_BLOCK = 18097914;
 const MULTICALL_ADDRESS = "0x5D78bF8f79A66e43f5932c1Ae0b8fA6563F97f74";
 const BATCH_SIZE = 100;
 const TOKEN_LIST = [
