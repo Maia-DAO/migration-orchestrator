@@ -47,12 +47,12 @@ async function filterEntries(inputFile, outputFile) {
   const keys = Object.keys(data);
 
   const remaining = [];
-  const rejected = [];
+  const rejected = {}; // Start with already rejected addresses
 
   // Divide addresses into remaining and rejected based on a predefined list
   keys.forEach((key) => {
     if (addressList.includes(key)) {
-      rejected.push(data[key]);
+      rejected[key] = data[key];
     } else {
       remaining.push(key);
     }
@@ -61,12 +61,11 @@ async function filterEntries(inputFile, outputFile) {
   // Check which of the remaining addresses are contracts
   const areContracts = await isContracts(remaining);
   const finalRemaining = {};
-  const finalRejected = { ...rejected }; // Start with already rejected addresses
 
   // Filter out contracts from remaining
   remaining.forEach((address, index) => {
     if (areContracts[index]) {
-      finalRejected[address] = data[address];
+      rejected[address] = data[address];
     } else {
       finalRemaining[address] = data[address];
     }
@@ -75,7 +74,7 @@ async function filterEntries(inputFile, outputFile) {
   // overwrite input
   overwriteJSON(inputFile, finalRemaining);
   // save rejects
-  saveJSON(outputFile, finalRejected);
+  saveJSON(outputFile, rejected);
 
   console.log("Filtering complete. Check the output files for results.");
 }
