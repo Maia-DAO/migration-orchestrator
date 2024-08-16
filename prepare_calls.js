@@ -19,7 +19,7 @@ function formatData(data, divisor, outputFilePath) {
     if (formattedBalance > 0.001) {
       outputData += `${address},${formattedBalance}\n`;
     } else {
-      totalLowBalances += formattedBalance;
+      totalLowBalances += parseFloat(formattedBalance);
       lowBalancesCounter++;
     }
     // console.log(`${address},${formattedBalance}`);

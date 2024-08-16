@@ -681,7 +681,6 @@ async function main() {
     const Vault = new ethers.Contract(vaultAddress, MOO_ABI, provider);
 
     const accounts = await getHolders(Vault, creationBlock, block);
-    console.log("🚀 ~ main ~ accounts:", accounts);
 
     let balance;
     // Read and process staked_balance.json
@@ -734,7 +733,7 @@ async function batchMulticall(Multicall, calls) {
     const { returnData } = await Multicall.aggregate(batchCalls, {
       blockTag: MIGRATION_BLOCK,
     });
-    console.log("🚀 ~ batchMulticall ~ returnData:", returnData);
+    // console.log("🚀 ~ batchMulticall ~ returnData:", returnData);
     results = results.concat(returnData);
   }
 
@@ -855,7 +854,7 @@ async function processTokenBalancesAndShares(
 
   const allCalls = [...balanceCalls, ...totalSupplyCall];
 
-  console.log("🚀 ~ processTokenBalancesAndShares ~ allCalls:", allCalls);
+  // console.log("🚀 ~ processTokenBalancesAndShares ~ allCalls:", allCalls);
 
   const returnData = await batchMulticall(Multicall, allCalls);
 
@@ -934,19 +933,19 @@ async function processAndFormatResults(
       // Scale back down by dividing the result by 1e18
       const finalRewardToAdd = parseInt(additionalReward) / 1e18;
 
-      console.log(
-        `Calculated additionalReward for ${address}: ${finalRewardToAdd.toString()} ${additionalReward.toString()}`
-      );
+      // console.log(
+      //   `Calculated additionalReward for ${address}: ${finalRewardToAdd.toString()} ${additionalReward.toString()}`
+      // );
 
       if (JSBI.greaterThan(finalRewardToAdd, JSBI.BigInt(0))) {
         rewards[address].reward = currentReward + finalRewardToAdd;
-        console.log(
-          `Updated reward for ${address}: ${rewards[address].reward}`
-        );
+        // console.log(
+        //   `Updated reward for ${address}: ${rewards[address].reward}`
+        // );
       } else {
-        console.log(
-          `Additional reward for ${address} was too small, resulting in 0 after scaling.`
-        );
+        // console.log(
+        //   `Additional reward for ${address} was too small, resulting in 0 after scaling.`
+        // );
       }
     });
     results.push({
@@ -982,7 +981,7 @@ function mergeData(file, oldCsv, stakes, divisor, checkRewards) {
   const csvMap = new Map(
     oldCsv.map((item) => {
       const parsedBalance = parseFloat(item.balance);
-      console.log(`Loaded balance for ${item.address}: ${parsedBalance}`);
+      // console.log(`Loaded balance for ${item.address}: ${parsedBalance}`);
       return [item.address, parsedBalance]; // Keep as float
     })
   );
@@ -993,32 +992,32 @@ function mergeData(file, oldCsv, stakes, divisor, checkRewards) {
       const address = ethers.utils.getAddress(holder.holderAddress);
       const newBalance = holder.shareOfTargetToken / divisor;
 
-      console.log(
-        `New balance for ${address} (after divisor ${divisor}): ${newBalance}`
-      );
+      // console.log(
+      //   `New balance for ${address} (after divisor ${divisor}): ${newBalance}`
+      // );
 
       let rewardToAdd = 0;
       if (checkRewards && rewards[address]) {
         rewardToAdd = parseFloat(rewards[address].reward);
-        console.log(`Reward to add for ${address}: ${rewardToAdd}`);
+        // console.log(`Reward to add for ${address}: ${rewardToAdd}`);
       }
 
       const totalBalance = newBalance + rewardToAdd;
-      console.log(
-        `Total balance for ${address} (new balance + reward): ${totalBalance}`
-      );
+      // console.log(
+      //   `Total balance for ${address} (new balance + reward): ${totalBalance}`
+      // );
 
       if (csvMap.has(address)) {
         const currentBalance = csvMap.get(address);
         const updatedBalance = currentBalance + totalBalance;
-        console.log(
-          `Updated balance for ${address}: ${currentBalance} + ${totalBalance} = ${updatedBalance}`
-        );
+        // console.log(
+        //   `Updated balance for ${address}: ${currentBalance} + ${totalBalance} = ${updatedBalance}`
+        // );
         csvMap.set(address, updatedBalance.toFixed(9)); // To ensure consistent decimal places
       } else {
-        console.log(
-          `Creating new balance entry for ${address}: ${totalBalance}`
-        );
+        // console.log(
+        //   `Creating new balance entry for ${address}: ${totalBalance}`
+        // );
         csvMap.set(address, totalBalance.toFixed(9));
       }
     });
@@ -1030,7 +1029,7 @@ function mergeData(file, oldCsv, stakes, divisor, checkRewards) {
   Array.from(csvMap.entries())
     .sort((a, b) => parseFloat(b[1]) - parseFloat(a[1]))
     .forEach(([address, balance]) => {
-      console.log(`Address: ${address}, Final Balance: ${balance}`);
+      // console.log(`Addresss: ${address}, Final Balance: ${balance}`);
       outputData += `${address},${balance}\n`;
     });
 

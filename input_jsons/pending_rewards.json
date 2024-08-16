@@ -117,6 +117,142 @@
       {
         "account": "0x32f6F912133D4c36879c79A1415f2e1fb39432Ee",
         "pendingReward": "253125484203710212"
+      },
+      {
+        "account": "0xcBD56A71a02fA7AA01bF1c94c0AeB2828Bebdc0A",
+        "pendingReward": "6535175208078880"
+      },
+      {
+        "account": "0x5a6E006BCacba236AcC80110172cc4ABe39a3214",
+        "pendingReward": "37003733026142635"
+      },
+      {
+        "account": "0xb70C2AB8bBA059Ea4995e7c67919aeb590c03a1A",
+        "pendingReward": "54638240706703937"
+      },
+      {
+        "account": "0x54bc4461DF2aC7Ed3FB50A5B18429C34F6222b28",
+        "pendingReward": "7997738273826162"
+      },
+      {
+        "account": "0x000000EA0e309ba169bFA8010eB5E95Db131940a",
+        "pendingReward": "592339580731086856"
+      },
+      {
+        "account": "0xf7543aD1996e868b881196967508b46d8E738281",
+        "pendingReward": "231044566698411175"
+      },
+      {
+        "account": "0xb593c7103878497C1C67BEA55D9a55B5E2B6E9dB",
+        "pendingReward": "46688875476552592"
+      },
+      {
+        "account": "0xc80fDACcc65dCd6eD030Fc416190f1C2Ab7B12AC",
+        "pendingReward": "358879575989011734486"
+      },
+      {
+        "account": "0xFFD83d919493110B2Ac416288b14791e046933F2",
+        "pendingReward": "901038925113107324543"
+      },
+      {
+        "account": "0x1080d4eF6075ec23BE04296341b9Df5514eF8585",
+        "pendingReward": "2806967588828554"
+      },
+      {
+        "account": "0x0593CFeDDB672a12E12Beaf86e8542e0fb26bA54",
+        "pendingReward": "1346203359271842"
+      },
+      {
+        "account": "0xfb3f06Ea3e663E92b784DB300cCDD0490b3535E7",
+        "pendingReward": "232782268767666229"
+      },
+      {
+        "account": "0x73af687B4bC949054d058be3172d1B5289cb659e",
+        "pendingReward": "8379834986351791"
+      },
+      {
+        "account": "0xB4FBDbc8371a1a3aD3b92012C7a3cDAD807B6641",
+        "pendingReward": "6617096508860235"
+      },
+      {
+        "account": "0x52524f7F5F2B75Ef38e676498a4FeDb3DC089212",
+        "pendingReward": "7863303354096029992"
+      },
+      {
+        "account": "0xcFd89b21405a4BbF9c5b380954BB4F3f55Bb72e5",
+        "pendingReward": "116973990033182401348"
+      },
+      {
+        "account": "0x0E7413349655e62631dE1a73Be6AAD0Ff03DB1D8",
+        "pendingReward": "1738415988531651013"
+      },
+      {
+        "account": "0x07a8DD5cA006d02fcE0B7Ddf3edFd04E91737F6d",
+        "pendingReward": "4884704248031103"
+      },
+      {
+        "account": "0x965bc2822CDF267483053C985f6D2F3bd7682Ede",
+        "pendingReward": "3743072151448508"
+      },
+      {
+        "account": "0xBDD677f06BdDd79820Bf7980A6B6fE9310f68749",
+        "pendingReward": "195080005643366077305"
+      },
+      {
+        "account": "0x6A39Cb32952A7D1F7A0EcF7528838784FdFB0b24",
+        "pendingReward": "314230660224709394555"
+      },
+      {
+        "account": "0xCde3b82f06Cccb07F55e4381e510380Ee4d3932b",
+        "pendingReward": "123826134001283671"
+      },
+      {
+        "account": "0xa0f2E2F7B3Ab58e3E52b74f08d94AE52778d46df",
+        "pendingReward": "1694559730011689846"
+      },
+      {
+        "account": "0x4dfF05308E250D0b0Fd5B5898772234e3DdC9F7E",
+        "pendingReward": "13338790123221293702"
+      },
+      {
+        "account": "0xF9E6E1ff964AEaE621EEa7a9737c31E176406DAb",
+        "pendingReward": "1192835167385596561443"
+      },
+      {
+        "account": "0x1EAc5345e9F0DD3a581823adAe2bbA3Bc189Dd23",
+        "pendingReward": "3222246023976904"
+      },
+      {
+        "account": "0xea44FAe3f14f1A2A25CD93194eE279cb0Af9F528",
+        "pendingReward": "470959687394824668425"
+      },
+      {
+        "account": "0x96c41b3d5e2b3F26F46B21022a17d72Dbb3FA760",
+        "pendingReward": "6166791350059532"
+      },
+      {
+        "account": "0x064cB0bB4c8ABE11935134aEE670C032D6833556",
+        "pendingReward": "8736610191480345303"
+      },
+      {
+        "account": "0x874da2f1eADFC5516f1E0089C7AA5E2db683EE04",
+        "pendingReward": "42581313282976900778"
+      },
+      {
+        "account": "0x39d5DFC3E547b2fF27a5A08A803f1ebC0fb92b6E",
+        "pendingReward": "104389565236756256"
+      },
+      {
+        "account": "0x7167c79A6759b56442E000DE277f73DE3f014993",
+        "pendingReward": "32841418290739412487"
+      },
+      {
+        "account": "0x3f3A1aa0585010b73335790992C50CE7c44dD1a4",
+        "pendingReward": "2975228339750561"
+      },
+      {
+        "account": "0x457F48a0bBa2D1aB06AD6f9b5F6d8Ee9c457BbA1",
+        "pendingReward": "67683775604680524339"
       }
     ],
     "totalRewardForGauge": "0"
@@ -511,6 +647,274 @@
       {
         "account": "0x7977054eF2C660E089616e2Ddc9D4Ab7facA0deE",
         "pendingReward": "5310613732139333"
+      },
+      {
+        "account": "0xc80fDACcc65dCd6eD030Fc416190f1C2Ab7B12AC",
+        "pendingReward": "333010060166802183869"
+      },
+      {
+        "account": "0x6A02BD6cF2cb4E122A2fd62aFeA732F15059cdce",
+        "pendingReward": "173984615238"
+      },
+      {
+        "account": "0xf70Ad87eAdDF347EaF2e2cE437E1FdBA220519B4",
+        "pendingReward": "65429291783"
+      },
+      {
+        "account": "0xD34216F24DaC965F9CC9a9762194d1CBcD58e5a1",
+        "pendingReward": "348597351879124576085"
+      },
+      {
+        "account": "0x4C1636e5F248e315c4Cb4B92e64B4f16364fA57f",
+        "pendingReward": "24005256089881774"
+      },
+      {
+        "account": "0xc2a4f477630CeB6ee5a2bc2c0f2e7DFf5C307Ae7",
+        "pendingReward": "778219342550634644588"
+      },
+      {
+        "account": "0x1608f9d56917eA346b9dEF614d076711B4F75247",
+        "pendingReward": "5064864527215384842243"
+      },
+      {
+        "account": "0x0C57d7Db1C17E867c0875C1A2736603e0022d679",
+        "pendingReward": "1135826207340526633900"
+      },
+      {
+        "account": "0xf26fD3695d4105D11A763622df7c9581cF2fcc54",
+        "pendingReward": "33523003669607924019"
+      },
+      {
+        "account": "0x2663dE7b0fed0f7796E5641a75ed6CaA1631443E",
+        "pendingReward": "19575035263162244498049"
+      },
+      {
+        "account": "0x4712Bb91d9c959a5B7FC6d336a1BF2e96772A103",
+        "pendingReward": "663556763610208746643"
+      },
+      {
+        "account": "0xe602b591CCE3457782FAfeFE2B7FA1c77222DbcC",
+        "pendingReward": "60062229206653626"
+      },
+      {
+        "account": "0xbd746FA2396823aaccdbD36cdCbB33B5306Fe556",
+        "pendingReward": "305020637806"
+      },
+      {
+        "account": "0x4084083D30A428696130Fe31627fF1a9eeD18b0A",
+        "pendingReward": "321503903892990280306"
+      },
+      {
+        "account": "0x12d6F056cc022c84CF91e8d66541b62757073dD6",
+        "pendingReward": "1271636838720499642185"
+      },
+      {
+        "account": "0x5A6bCB75b849c00FD1C3Eff254dAc2f4560f1A9d",
+        "pendingReward": "546155543078640790"
+      },
+      {
+        "account": "0xDDc7cd1d804358d431307D3b611f61e248541c27",
+        "pendingReward": "117895478985"
+      },
+      {
+        "account": "0x1470f5fd536dACdED7E08627C0f9732b7A460abd",
+        "pendingReward": "122652235481762338882257"
+      },
+      {
+        "account": "0x981075725317956712242025Ea77614Dd1d9A2d6",
+        "pendingReward": "10238926308109076910644"
+      },
+      {
+        "account": "0x98cEA6ed2CF1047B08942cDEeD525DC7eAe2E84e",
+        "pendingReward": "153045653574"
+      },
+      {
+        "account": "0x9cB9681CCf320A07a51AC56400E9f542454489c7",
+        "pendingReward": "277080622907161187"
+      },
+      {
+        "account": "0x51B8217a25D97b833FEca5C0e5D1aC57bc75fCb2",
+        "pendingReward": "33243325438026241809"
+      },
+      {
+        "account": "0x9D32F1e7C5fF707e92b4B30937A1e5E2C2De2462",
+        "pendingReward": "477646507702831783930"
+      },
+      {
+        "account": "0x6B2CFabf0703D807784D11eEE07759559EDeFF6A",
+        "pendingReward": "208687533585449763301"
+      },
+      {
+        "account": "0x03C2bFd2509dE9b13d0124015077e100a292336D",
+        "pendingReward": "3754079923130616155"
+      },
+      {
+        "account": "0xdF43664AEC3B994E1dD159EC59d45ba87927255b",
+        "pendingReward": "863480798520743034242"
+      },
+      {
+        "account": "0x107dC1068648713f2f17099D4e90D294fb898CE0",
+        "pendingReward": "12866107476595377"
+      },
+      {
+        "account": "0xEfFF619436DaCb3ab53Ea271500d6b7849955e2f",
+        "pendingReward": "303725150840681036323"
+      },
+      {
+        "account": "0x1BbDc79dE5a294452533Bb3068f46b9424e11BB4",
+        "pendingReward": "73591457372"
+      },
+      {
+        "account": "0x88E385Def57004Ec13a164F32C9E784594561072",
+        "pendingReward": "22740967011"
+      },
+      {
+        "account": "0xB2c4b7761BAbDa70adb23604A71f2Fb511afc9bF",
+        "pendingReward": "112423500831728071"
+      },
+      {
+        "account": "0x64e5F1E0ACabF2605bD7083E0e5c49C269785382",
+        "pendingReward": "2042188469405788993"
+      },
+      {
+        "account": "0x83f8E9E44Be7AE4a488E7b39680addcBA23B821e",
+        "pendingReward": "2807576093631136214"
+      },
+      {
+        "account": "0x3fC39A9e01603265f12bD3b6E0987e7326e12ec4",
+        "pendingReward": "2642120687194771758"
+      },
+      {
+        "account": "0xe327CCe7E63ec42C24609ada12adFFF186972717",
+        "pendingReward": "31620628002423283194"
+      },
+      {
+        "account": "0xF05838eAe79ffbc501276e6F7ecB4ad2AEeeD6a2",
+        "pendingReward": "18456641184256904459"
+      },
+      {
+        "account": "0x1a55668A138c4212c116D62fe6e78a51602B9716",
+        "pendingReward": "17886810764979316330"
+      },
+      {
+        "account": "0x6615e0B79C7120CFe53eC5829B79ee9b475da083",
+        "pendingReward": "307214938107568541635"
+      },
+      {
+        "account": "0xAc782Ab3BBfd3844d1f80513585438FB36618C56",
+        "pendingReward": "7161294054038347020860"
+      },
+      {
+        "account": "0xB9304E939C78daCfCb84077cBdf997C4A7441874",
+        "pendingReward": "1523496566379600607"
+      },
+      {
+        "account": "0xa3DD777e01E37D5a02ca549d57567b9F02a77b2F",
+        "pendingReward": "722109168208080812154"
+      },
+      {
+        "account": "0xc4EcAEa893187278dFd038A714ea2c576A3D2753",
+        "pendingReward": "688164835674675979475"
+      },
+      {
+        "account": "0x551FBE994b37D1248E6c8c315D68d6c468783bbC",
+        "pendingReward": "138091028966499663"
+      },
+      {
+        "account": "0x8c265C23a52E06dc95233399dC771916516E44e5",
+        "pendingReward": "357284488806266079484"
+      },
+      {
+        "account": "0xf36E0f6989353D115862220112C3c05db7833754",
+        "pendingReward": "746130021809466842"
+      },
+      {
+        "account": "0x50583554DA08Df486F5e754357aE2435Aed3b239",
+        "pendingReward": "40584575511988436078"
+      },
+      {
+        "account": "0xdc403316CCD72aD1f4cb8C3CAA7A7CDFD27318A5",
+        "pendingReward": "3608260487406594711"
+      },
+      {
+        "account": "0xe06d13D4286405857d67e4C825b601485Aefd461",
+        "pendingReward": "2149515869458388836"
+      },
+      {
+        "account": "0x7037E32498Ce54F6a1010004847068688E1aCA5e",
+        "pendingReward": "3841048357799578"
+      },
+      {
+        "account": "0x9cf8986e78d6215d1491c66D64409a54CF6268E4",
+        "pendingReward": "3577595178514677801494"
+      },
+      {
+        "account": "0x8f79AED9f25Aee9Cfbee7ABC47a26e029e3558f8",
+        "pendingReward": "4052908852629247"
+      },
+      {
+        "account": "0xd89979b759A1b79753DC1Cb833D3c82DAc3732Eb",
+        "pendingReward": "9298431163857208916"
+      },
+      {
+        "account": "0xc0882631627786eEA84a851F66cdd1c0a070eA28",
+        "pendingReward": "3182218578768652163"
+      },
+      {
+        "account": "0xe8B55Fd62045d51274812E5c3aB803055C0E3EaA",
+        "pendingReward": "3626953001291946"
+      },
+      {
+        "account": "0xEa3ad2F3950bca65D56d0Fcd180a872f36549385",
+        "pendingReward": "133016517846391107820"
+      },
+      {
+        "account": "0x0c903443AE12a796D311d726Ec1368abEaB27D1D",
+        "pendingReward": "667596815030752200949"
+      },
+      {
+        "account": "0xAA829e24f8A649E6d075cBD0Ffca03B7E5292265",
+        "pendingReward": "137464445114125933896"
+      },
+      {
+        "account": "0x44507fFa68C97D1a6567A46c9c26bB8eE8e34860",
+        "pendingReward": "125752874635456319485"
+      },
+      {
+        "account": "0x933019Dc8dd81BBBa5A8418fe86e7a1B579371d9",
+        "pendingReward": "62156600965662316726"
+      },
+      {
+        "account": "0xC12A9A1cE910D8D8377D159F7fbeD6c9b5d3C4D7",
+        "pendingReward": "137600142969272836630"
+      },
+      {
+        "account": "0x646b6b8a8f5C55d3509C8B47b334c8728f33468F",
+        "pendingReward": "59212446765243783143"
+      },
+      {
+        "account": "0x1D24ac410054ed26e340548c2FD22fAdD02067D5",
+        "pendingReward": "90425262391252848122"
+      },
+      {
+        "account": "0xAe7B43956A375d3989771852d3951142675584ea",
+        "pendingReward": "134461963965579328"
+      },
+      {
+        "account": "0xcc34A385bfdF725987E3c83720866581974d5df5",
+        "pendingReward": "7615744169108140309457"
+      },
+      {
+        "account": "0x31Ee6D4d1325fC658328AaFe4787EEBAC9ae2ff5",
+        "pendingReward": "2376775166906198056"
+      },
+      {
+        "account": "0x97405030cA47983E7E0F07a32FF3362A567f3724",
+        "pendingReward": "10466192549964384364617"
+      },
+      {
+        "account": "0xD59bccB0CaB41F948C2D78287e21ff2035A1192a",
+        "pendingReward": "52972339606332588994"
       }
     ],
     "totalRewardForGauge": "0"
@@ -549,6 +953,46 @@
       {
         "account": "0xF1E1C52BCfC167dfc871DD6A0F02ce3F54485726",
         "pendingReward": "1727919054148584273605"
+      },
+      {
+        "account": "0x0ED57484E130E435Fe6f8383eF9318ce8704e6Fd",
+        "pendingReward": "106936835082840753"
+      },
+      {
+        "account": "0x86d2f8852cC4d41ad2d0a2e33216050Fb5E5FCd6",
+        "pendingReward": "16315301246469105"
+      },
+      {
+        "account": "0xAaA9A569c2e631B4e33e62d044020f21c114f450",
+        "pendingReward": "590988135379692819"
+      },
+      {
+        "account": "0x8Bb57A8241640d47A8336bf9b726dA63767bAEFA",
+        "pendingReward": "272545067285164061"
+      },
+      {
+        "account": "0x53169Fe9DD7338aEbE407d4fA0c8004b23B1cAAb",
+        "pendingReward": "114677084599429933852"
+      },
+      {
+        "account": "0xE7f8ba24aAD7597722B9208F551C86B726Ad6319",
+        "pendingReward": "620050718504877145"
+      },
+      {
+        "account": "0x7e690a8a36975CD1FFe2E43821b404F6F7253465",
+        "pendingReward": "55419930071765672436795"
+      },
+      {
+        "account": "0xE5063811c8A0da1c95bC72b017bABbEd32724302",
+        "pendingReward": "57266633977611670849"
+      },
+      {
+        "account": "0x41320eF31F3993Ee9730C20E01b0629Ba73F03a5",
+        "pendingReward": "444726679577351883086"
+      },
+      {
+        "account": "0x9a2ad9439c19e196Ca407F32e40341387415a0c6",
+        "pendingReward": "49541486805629936"
       }
     ],
     "totalRewardForGauge": "0"
@@ -559,6 +1003,18 @@
       {
         "account": "0x6b9334B8E3ae284E4bc9475198431a4E2a2a9Fd8",
         "pendingReward": "9724180634450961"
+      },
+      {
+        "account": "0x8230cF5bC3De7f18889fABdB8e649B3c45ff3650",
+        "pendingReward": "575623714376117494"
+      },
+      {
+        "account": "0x7591921c6F27Cdc3AAD6d00Cb585d84D470090f6",
+        "pendingReward": "64221690434046785"
+      },
+      {
+        "account": "0xcbBC5D06BE48B9B1D90A8E787B4d42bc4A3B74a8",
+        "pendingReward": "139944224193102822"
       }
     ],
     "totalRewardForGauge": "0"
@@ -569,6 +1025,18 @@
       {
         "account": "0x70E008BD6e4e9000cA78bCDBCECe528854e1947b",
         "pendingReward": "1584587391274659"
+      },
+      {
+        "account": "0x652cBF009076960440D2B83Ca4FA2fC547f567d7",
+        "pendingReward": "694393974064209"
+      },
+      {
+        "account": "0x4Aa4A02708B5A191cD9F42D6C3a99385B180610C",
+        "pendingReward": "353198658118345693"
+      },
+      {
+        "account": "0xEB8463c8A2435f52EE8aEcD3bA630FD21A00106a",
+        "pendingReward": "368962711832261036"
       }
     ],
     "totalRewardForGauge": "0"
@@ -583,6 +1051,134 @@
       {
         "account": "0xb9C0aBA138B98656FfEa4309bfE2881b0b7c1d96",
         "pendingReward": "372323869432708951481"
+      },
+      {
+        "account": "0x8f79AED9f25Aee9Cfbee7ABC47a26e029e3558f8",
+        "pendingReward": "35875390284937213053"
+      },
+      {
+        "account": "0x507f2CA53D1a1e380057F2Da71258ffB84a56626",
+        "pendingReward": "6869143204803787085"
+      },
+      {
+        "account": "0x85074d682982E7312D46Cd565D68fcDAee4da231",
+        "pendingReward": "34547447843835266609"
+      },
+      {
+        "account": "0xE728b8789696873cB770D2f9D88bcEBC65E382B9",
+        "pendingReward": "11223406417470357881"
+      },
+      {
+        "account": "0x1c2212B859058bf346d0376b735E39F4190E9dC1",
+        "pendingReward": "16765591191995194909"
+      },
+      {
+        "account": "0x714f148Ee4B480fDB28e538618A8d376da3C2C7b",
+        "pendingReward": "11065278758545460213"
+      },
+      {
+        "account": "0xd0f26aC55621Bef2517255E3C5740F80E9Db4193",
+        "pendingReward": "7521327479186992322"
+      },
+      {
+        "account": "0xF8fB10554704289B4d31666DD6a2Fbcef82551C5",
+        "pendingReward": "8358107322129653370"
+      },
+      {
+        "account": "0xC0F1daD26748C5888a4EE882185E9c434ca5360D",
+        "pendingReward": "8358107322129653370"
+      },
+      {
+        "account": "0x0D2FBF9d3Fc2507aF44Bb326219792354F418dB9",
+        "pendingReward": "11032712351442027353"
+      },
+      {
+        "account": "0x5509517ED177b3AB95B479C82D5EcBFAd832b62B",
+        "pendingReward": "1170106247122502636"
+      },
+      {
+        "account": "0x1b216FDe418391F000Fc252130Bc8F762CeEb328",
+        "pendingReward": "11134235140154931822"
+      },
+      {
+        "account": "0x1E8a67B0330735142174C62ce9799CFD7D39f940",
+        "pendingReward": "16565347216153995944"
+      },
+      {
+        "account": "0x3AeA7d6955220f9c2c535189b88c4F9276224fA8",
+        "pendingReward": "1686377443141718284"
+      },
+      {
+        "account": "0xbDB4a869a154ecF4a0e23A911325D64F8Ba14BC8",
+        "pendingReward": "10090520047774696383"
+      },
+      {
+        "account": "0x5a4b1E8F168c59469FD3887E067Ca844e0CaeB85",
+        "pendingReward": "336319823527124098"
+      },
+      {
+        "account": "0x9b40779F363d979685CFd6C77f3f9c5C41704f4D",
+        "pendingReward": "840850015673380124"
+      },
+      {
+        "account": "0x96fbF4d1028e279e6EBb4c0818178fe6Caaa04A0",
+        "pendingReward": "1681733655631889003"
+      },
+      {
+        "account": "0xB87BAC37E56c1Fd76B017B665856D6614fC5022f",
+        "pendingReward": "9840401901120005098"
+      },
+      {
+        "account": "0x7D609BE2E06b7d88b3CFb1a774253D95933F9358",
+        "pendingReward": "3439858500327532918"
+      },
+      {
+        "account": "0x8C54Fa04b96Aa03f09a506b7b468E47A179D14de",
+        "pendingReward": "3468125207077095624"
+      },
+      {
+        "account": "0x0D68e4c0BC083e1d07eA04543Ec38B1BDC57d41F",
+        "pendingReward": "1745133082785100263"
+      },
+      {
+        "account": "0x95ab08850815B755B83c02Dabc0857a43c457938",
+        "pendingReward": "698032274112495694"
+      },
+      {
+        "account": "0x7a0D80E6bfBC634765A92B2773F7FCf0AdF84900",
+        "pendingReward": "3475998029064629675"
+      },
+      {
+        "account": "0xdD5bD5D74D340dE659Ee8064882d49B1828D99d5",
+        "pendingReward": "34813159201648725415"
+      },
+      {
+        "account": "0x21e8dc863A02627e4D54175eaFf1868fCf6458c9",
+        "pendingReward": "17924680317485213322"
+      },
+      {
+        "account": "0x19aC40484523bb218FF394CcC99d077184fE68d5",
+        "pendingReward": "35683533505020086421"
+      },
+      {
+        "account": "0x20E018e64b562889Ee4366208FeBB470787F37E1",
+        "pendingReward": "35875390284937213053"
+      },
+      {
+        "account": "0x75605b1FF2DCbAb49CA05F4e21FF24c37C2758D7",
+        "pendingReward": "8971514338618431865"
+      },
+      {
+        "account": "0xb2bB98e7C4bd6a530d2b8ce518874f406C0Db28C",
+        "pendingReward": "35516581779598963614"
+      },
+      {
+        "account": "0x4270521c1648205Bf9fF383C60F5b155Fa9d3E7d",
+        "pendingReward": "37643310378245480161"
+      },
+      {
+        "account": "0x3D8f0c586FF01B75349a5757904d9Ac46aAE91a7",
+        "pendingReward": "17825463304932468582"
       }
     ],
     "totalRewardForGauge": "0"
@@ -791,6 +1387,10 @@
       {
         "account": "0x4DCE78c0Bb807C319130C0da3097FAa0E7af763d",
         "pendingReward": "86349329167368565"
+      },
+      {
+        "account": "0x40b22Fc7B15eFcd326E4A91c47D5f51Dd075b19e",
+        "pendingReward": "16283367826"
       }
     ],
     "totalRewardForGauge": "0"
@@ -821,6 +1421,14 @@
       {
         "account": "0x723243e7d7A17877E4b8B359fdcde511266508d9",
         "pendingReward": "61616654973248360694"
+      },
+      {
+        "account": "0x1BD1AA4DdF40e87CE385Eb837FADDb028Fc1Ec23",
+        "pendingReward": "34538820477189666195"
+      },
+      {
+        "account": "0x7367732f1E69BBf070f6F860522Bc9Db0F305E3A",
+        "pendingReward": "359868"
       }
     ],
     "totalRewardForGauge": "0"
@@ -891,6 +1499,38 @@
       {
         "account": "0x221a68818A6A77FAE0d920306B45a3b1E32E6743",
         "pendingReward": "54464625538596892131"
+      },
+      {
+        "account": "0x1be1329BfCD8bC85b424Fa9af7392e5deFbDb2ED",
+        "pendingReward": "11465079516566587"
+      },
+      {
+        "account": "0x32f40198DCB850d814Ad476a3961fB0667Af3133",
+        "pendingReward": "689933844329128477"
+      },
+      {
+        "account": "0xEDd50f07f8B18763D1819b2e5CB88Ca3ff22C9D5",
+        "pendingReward": "1044623929373666058"
+      },
+      {
+        "account": "0xD291952F41E2a7159cb22A3074F565F781725DAE",
+        "pendingReward": "684267683482163193"
+      },
+      {
+        "account": "0x88224D97c9dF67951C289cf2C1AB6140802981e7",
+        "pendingReward": "342939194830378455"
+      },
+      {
+        "account": "0xee24Fe098c3885477a2af302478B23A297E995A4",
+        "pendingReward": "2099267546767481662"
+      },
+      {
+        "account": "0x8F9F431D7364A734eE7C911A67c9DE7bc07CA4fE",
+        "pendingReward": "3066855911578790832"
+      },
+      {
+        "account": "0x929216317B57049Aeea44C009C1F4174F46b9b77",
+        "pendingReward": "165769740877210"
       }
     ],
     "totalRewardForGauge": "0"
@@ -909,6 +1549,30 @@
       {
         "account": "0x0e25fB7a38C2B4bd967E5239C01c624a3A24d0a1",
         "pendingReward": "4189160354390826"
+      },
+      {
+        "account": "0xDB19D3186Ea32001F6F16867D5D31a39BbA139Be",
+        "pendingReward": "44775273973140"
+      },
+      {
+        "account": "0xB9304E939C78daCfCb84077cBdf997C4A7441874",
+        "pendingReward": "19443019884643842"
+      },
+      {
+        "account": "0x1FdDE9A4303461af947dD6f6ED5d6F3f6578Ef97",
+        "pendingReward": "238724576644605760016"
+      },
+      {
+        "account": "0x38FbDBbc8A757d2a4Fb245B51f51256fDeC911F0",
+        "pendingReward": "112184588686072041569"
+      },
+      {
+        "account": "0x073985C90dB3a8c51fC8e98b57D201F7A7D3c1bc",
+        "pendingReward": "39540387481706767"
+      },
+      {
+        "account": "0xE67E6c7c4a230818D6C4A3075894f12c8165B4BE",
+        "pendingReward": "622016322974463265"
       }
     ],
     "totalRewardForGauge": "0"
@@ -959,6 +1623,22 @@
       {
         "account": "0x820094b7942f39A635609C6268F7311e4C661D71",
         "pendingReward": "175092349974728"
+      },
+      {
+        "account": "0x3b31D3DEC0DbBFfA9Fd10B6ddD313a54EB479a35",
+        "pendingReward": "9642807604945949320"
+      },
+      {
+        "account": "0x6101E078F8BEeF80109D2B8c1A86B18f43833f29",
+        "pendingReward": "15870182371240908615"
+      },
+      {
+        "account": "0x13f124Ceb5077AA9Dc630Fd38B8C6B18Cc6E77F9",
+        "pendingReward": "281905307944602866905"
+      },
+      {
+        "account": "0xA1EcD0B02Df00F88635c1A588c2bb8C09D6c7603",
+        "pendingReward": "231926165887"
       }
     ],
     "totalRewardForGauge": "0"
@@ -969,6 +1649,22 @@
       {
         "account": "0xA3A89931799Ba449A7bd1658EfD9C8662dd22BcA",
         "pendingReward": "157612587757837738547"
+      },
+      {
+        "account": "0x20E018e64b562889Ee4366208FeBB470787F37E1",
+        "pendingReward": "41754511314165632545"
+      },
+      {
+        "account": "0xc35DC8ba17f152d0424CbF904a1dc8267437B4d0",
+        "pendingReward": "3315960152958904"
+      },
+      {
+        "account": "0x92163E2b6057d19686EA4fa684a507421ded69CC",
+        "pendingReward": "34600385631315490115"
+      },
+      {
+        "account": "0x8e42825dB5459d66C497D27e6d0cEaD97A3cEb66",
+        "pendingReward": "28090572552590105530"
       }
     ],
     "totalRewardForGauge": "0"
@@ -999,6 +1695,22 @@
       {
         "account": "0x9BDbdb4A8f7f816C87a67F5281484ED902C6b942",
         "pendingReward": "100481377676198304"
+      },
+      {
+        "account": "0x1563CF31424cF6aaE088D3223830dC4DfAE82B5a",
+        "pendingReward": "95528989132922486634"
+      },
+      {
+        "account": "0xA1EAD6248a0ed94cC80910Dc5311D2B12b5E86a0",
+        "pendingReward": "458554903052187341251"
+      },
+      {
+        "account": "0xDD11d5db35F52110D6C6a03778e2F822B1f79a0e",
+        "pendingReward": "270538789537598294925"
+      },
+      {
+        "account": "0x59dF6180B90C3D242B728eFF3e374CDf35C8d693",
+        "pendingReward": "1462"
       }
     ],
     "totalRewardForGauge": "0"
@@ -1527,6 +2239,18 @@
       {
         "account": "0xF1E1C52BCfC167dfc871DD6A0F02ce3F54485726",
         "pendingReward": "6492917472040137205258"
+      },
+      {
+        "account": "0x8D64292a9252Caa8c37AB79ADcF42CDDA0186d95",
+        "pendingReward": "73987364548710375277"
+      },
+      {
+        "account": "0x667Be73F63BFcc5eDBc93Cf510ac198390717A6E",
+        "pendingReward": "14709915868600271205"
+      },
+      {
+        "account": "0x9b90Eef478C65dfDdd819aa5FE9641d9D9D63748",
+        "pendingReward": "156631936601714014314"
       }
     ],
     "totalRewardForGauge": "0"
@@ -1689,6 +2413,62 @@
       {
         "account": "0x73AC25a1dDa69e8B9c9E8a0416944864857eAAd3",
         "pendingReward": "54446504707748460"
+      },
+      {
+        "account": "0xc2a4f477630CeB6ee5a2bc2c0f2e7DFf5C307Ae7",
+        "pendingReward": "109477200184217235852"
+      },
+      {
+        "account": "0xB9304E939C78daCfCb84077cBdf997C4A7441874",
+        "pendingReward": "4868990709320983130"
+      },
+      {
+        "account": "0x358Aa541a8ac5331251Af51a6bDe11e83f9584Dc",
+        "pendingReward": "2207103626861678707991"
+      },
+      {
+        "account": "0xc6027846074484b048831bCA45D6B5f009cebe7a",
+        "pendingReward": "2378574"
+      },
+      {
+        "account": "0xDAfBED6Fc9A5783983994Aa7748ff79729caf1E9",
+        "pendingReward": "1599149146520001784836"
+      },
+      {
+        "account": "0x374DC1BaF7a05e2D47f8D169FB9c8c862A9082CA",
+        "pendingReward": "77599850530807740653"
+      },
+      {
+        "account": "0xbb022B95a85FFf259CE6E60D6373148f015a1d59",
+        "pendingReward": "141649923734114551"
+      },
+      {
+        "account": "0x379F29c017eC33E145D1fe721971Cc1B50a31253",
+        "pendingReward": "2122900312562032069"
+      },
+      {
+        "account": "0xa3C1bD35ba719b6a4fb34d0D7360Fc2E3a2A1a5e",
+        "pendingReward": "2546708142957704707176"
+      },
+      {
+        "account": "0xC3b1F7aB9FaBD729CDF9E90ea54eC447F9464269",
+        "pendingReward": "16311984815"
+      },
+      {
+        "account": "0x4c2571df369B4BcE1850e7cebc335811A8798266",
+        "pendingReward": "887383301188219987"
+      },
+      {
+        "account": "0xa088CFeCfE221526012d90Ffe47a9Db30F0A82e9",
+        "pendingReward": "1016950317760449259"
+      },
+      {
+        "account": "0x3df883542cA0037346ACff9417fF6a7D68204096",
+        "pendingReward": "161500027586530348290"
+      },
+      {
+        "account": "0x3Fdb50F723Ceb370470D314Ed05C22D7359BE529",
+        "pendingReward": "422332634038111119620"
       }
     ],
     "totalRewardForGauge": "0"
@@ -1699,6 +2479,10 @@
       {
         "account": "0xC941aa67643B3B54531d70d19fB34ed287f32171",
         "pendingReward": "51058229919433086587"
+      },
+      {
+        "account": "0x3dEb1E4430BE28b3B1269A9fD62DB8BbfDed3C5b",
+        "pendingReward": "7517348522284584"
       }
     ],
     "totalRewardForGauge": "0"
@@ -1741,6 +2525,14 @@
       {
         "account": "0xbddAc3e91Fb049bB369a40E8B6dDDe0332117322",
         "pendingReward": "8843313128420032580"
+      },
+      {
+        "account": "0xbD3B77cfF3De95C567227E62aEFCC7670a0b04db",
+        "pendingReward": "13146607415606933534"
+      },
+      {
+        "account": "0x8c43433586bCD5f9D4A47B32207f47cBB4Bc0992",
+        "pendingReward": "86174115040114635557"
       }
     ],
     "totalRewardForGauge": "0"
@@ -1759,6 +2551,10 @@
       {
         "account": "0x51c29C37ff4bB2cB3541B0758eaC48382071B506",
         "pendingReward": "117259466369701896"
+      },
+      {
+        "account": "0x54e7f15d5892FB6769F2758E6d13d5895f695479",
+        "pendingReward": "210908178549608"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4189,6 +4985,10 @@
       {
         "account": "0xC941aa67643B3B54531d70d19fB34ed287f32171",
         "pendingReward": "628904631251114448832"
+      },
+      {
+        "account": "0x9b87d789EC8E6955e203577751bA0Eb4612A6665",
+        "pendingReward": "110337058185432299663"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4203,6 +5003,14 @@
       {
         "account": "0x9BDbdb4A8f7f816C87a67F5281484ED902C6b942",
         "pendingReward": "149994412216432"
+      },
+      {
+        "account": "0x9116b0ebb6C7a8Ae201c725c27c87e5e546Ed077",
+        "pendingReward": "12376010583675"
+      },
+      {
+        "account": "0xF9c469d6ec21CEfAA919b923CA0F42510211b60C",
+        "pendingReward": "710507859817400702441"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4221,6 +5029,10 @@
       {
         "account": "0xCba1A275e2D858EcffaF7a87F606f74B719a8A93",
         "pendingReward": "4295788525015304"
+      },
+      {
+        "account": "0xB2938Bd4c7854C0709c2FefefE1284fb24133d19",
+        "pendingReward": "51"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4247,6 +5059,18 @@
       {
         "account": "0xd1ef5E9fCfEBEcB4e7080989154d2a8a9Ad7f4eC",
         "pendingReward": "8569308924112303417"
+      },
+      {
+        "account": "0x0B9D778F5E21006373e1491D882f14692bA0f5aD",
+        "pendingReward": "8569308924082638802"
+      },
+      {
+        "account": "0x40b22Fc7B15eFcd326E4A91c47D5f51Dd075b19e",
+        "pendingReward": "8569308979084848402"
+      },
+      {
+        "account": "0xD6DE0B874A8f4994af955fC3b975004de59AaEbF",
+        "pendingReward": "9164496480533068231"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4571,6 +5395,54 @@
       {
         "account": "0xCd52C049924C410f3767a416827B6160eCc9A1A1",
         "pendingReward": "169516312730816777381"
+      },
+      {
+        "account": "0x4e81276E61dB7fddd1001EbD6EcBFA28E06A2136",
+        "pendingReward": "6525471608438469145008"
+      },
+      {
+        "account": "0xbE20526cF122f788C41A534BeAD6EBaDD230B5a4",
+        "pendingReward": "23838864780096362457"
+      },
+      {
+        "account": "0xE33B746A030c3B3C512D274B05Ea6e40772CF212",
+        "pendingReward": "64227949456"
+      },
+      {
+        "account": "0xF65163346bD3f977BeC2EFb8E25e62e90CEE118D",
+        "pendingReward": "2827788978576091769217"
+      },
+      {
+        "account": "0xebb8eE4722501358bf70559d26Ef6e7B1326b3c6",
+        "pendingReward": "400953064642921012"
+      },
+      {
+        "account": "0xf29146543824ebAB2524df0be117FC278Dc8d8F6",
+        "pendingReward": "1245043685201590770422"
+      },
+      {
+        "account": "0xfb9094dafaf13d9ba709e81E1EaAE881cE3f49A1",
+        "pendingReward": "1394368156333864357"
+      },
+      {
+        "account": "0xd52D391ebDFe9708346FA5017076d5D190493F78",
+        "pendingReward": "156611614322"
+      },
+      {
+        "account": "0xD370d39Ef962d504E661D75F28Aec670Eb703468",
+        "pendingReward": "404526367234429175076"
+      },
+      {
+        "account": "0x22f851bCF7353d072Ed5Cce3cAff096195D2794e",
+        "pendingReward": "91357375351959350"
+      },
+      {
+        "account": "0x2d56F14F7623fa1Ab587e06a630E82dAa1425631",
+        "pendingReward": "7316253735"
+      },
+      {
+        "account": "0xc3526d54f9dE73959Bac1B67668668a3E940f659",
+        "pendingReward": "175877715395776535937"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4589,6 +5461,10 @@
       {
         "account": "0x5719d8985F1933d91Bfb542C4eba07FBA0045967",
         "pendingReward": "543650733443565347"
+      },
+      {
+        "account": "0x6cdbff9aeeD53a547102E29663e4cFBC65CCb5B4",
+        "pendingReward": "124407259105936306268"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4599,6 +5475,10 @@
       {
         "account": "0xd314d0F4278098FF5772EBBb3D9B5A42dd8349D8",
         "pendingReward": "1368203813359409008"
+      },
+      {
+        "account": "0x5d9D5c46d70A0773f24d804E686b2EDff9CbF120",
+        "pendingReward": "10737707613556037698552"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4635,6 +5515,20 @@
       {
         "account": "0x351e6f90B22019feB318f998b7BB9b60732AF4DA",
         "pendingReward": "537716773592400"
+      },
+      {
+        "account": "0xfaF3E47986E7807fac221858BA13e76FCFcd3BFE",
+        "pendingReward": "1486272467112932"
+      }
+    ],
+    "totalRewardForGauge": "0"
+  },
+  {
+    "gauge": "0x615a51CaE6615b12479c5ABFbB2dd0F59417b9Af",
+    "rewards": [
+      {
+        "account": "0x5d9D5c46d70A0773f24d804E686b2EDff9CbF120",
+        "pendingReward": "17887641082358152076213"
       }
     ],
     "totalRewardForGauge": "0"
@@ -4655,6 +5549,22 @@
       {
         "account": "0x48Df2806d61aB83eeFC2C7F4ccf1C9A77a91348d",
         "pendingReward": "4368372478"
+      },
+      {
+        "account": "0x3aE053f38cD0fcE7fc2671788E636d7C1968ae6b",
+        "pendingReward": "3465358912928886167715"
+      },
+      {
+        "account": "0xC7f1C3bE432Dbd1B80aA28Eb58B5F859F17Eb432",
+        "pendingReward": "354420590456446561693"
+      },
+      {
+        "account": "0xcB0Ce5f464B43eCCd194479d02b621091cc9A059",
+        "pendingReward": "2874415924"
+      },
+      {
+        "account": "0xccbBEc64ba16c180C252204c44856752CACfaE6e",
+        "pendingReward": "466894438483009809347"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5089,6 +5999,174 @@
       {
         "account": "0xa31aEeA459C1aB0124Ed44711a678d6E18874692",
         "pendingReward": "353700208091270581215"
+      },
+      {
+        "account": "0xEfFF619436DaCb3ab53Ea271500d6b7849955e2f",
+        "pendingReward": "918758341642621439242"
+      },
+      {
+        "account": "0x60FeFE457Ae30a4A0835aBe87AAD2cC68FC3A604",
+        "pendingReward": "1061501260900939461"
+      },
+      {
+        "account": "0x31Ee6D4d1325fC658328AaFe4787EEBAC9ae2ff5",
+        "pendingReward": "430953019260563280259"
+      },
+      {
+        "account": "0xa6BE4aa81dCA233dAb601691E07F17673f4881dF",
+        "pendingReward": "5963548749505669703"
+      },
+      {
+        "account": "0xc692bD6Ee9C8e4e319bc296A4C02af01b39ab83C",
+        "pendingReward": "187452924359456774800"
+      },
+      {
+        "account": "0x5d433b73eD2898E00E129eE87621af184Bc00259",
+        "pendingReward": "43877881170"
+      },
+      {
+        "account": "0x477CB79F27B834526A3B5756c169aCCeFfEd0340",
+        "pendingReward": "896146500553599447485"
+      },
+      {
+        "account": "0xb30bb2645A0e9a791ccEbD4e222c3216f26f9F5a",
+        "pendingReward": "58243471242580187635244"
+      },
+      {
+        "account": "0x0b8C1e780A9448e664d1F2246a19F5F0e58bf7Da",
+        "pendingReward": "754196808492667113432"
+      },
+      {
+        "account": "0x596117fb76BaDD355a19D0e24161192c68E00523",
+        "pendingReward": "44073788667714540232858"
+      },
+      {
+        "account": "0x829a2D64eFe14ABbfb64AA7f82BbF6F2470818bF",
+        "pendingReward": "6327245169762108068875"
+      },
+      {
+        "account": "0x76a2A21aEdF1779EDc66CCF5512981486220a393",
+        "pendingReward": "8797035673999756160477"
+      },
+      {
+        "account": "0xb2E1E9B119fAFF6D33cc92CE1290c730e3a56564",
+        "pendingReward": "36617561822058201097954"
+      },
+      {
+        "account": "0x1f39Ad8D9F5C037A810450EB70fe9baDe3fbA13E",
+        "pendingReward": "19903701554376395196913"
+      },
+      {
+        "account": "0x1B077a840102fFaf7E3f583Ef80f89BC1697537b",
+        "pendingReward": "39497475846764384731317"
+      },
+      {
+        "account": "0xf66014A47a84f128DEA3fBBbeaf985AF575bDCc0",
+        "pendingReward": "13645531614651693396494"
+      },
+      {
+        "account": "0x0639dDA84198dc06f5bC91bDDBb62cd2e38c2F9A",
+        "pendingReward": "112284910206"
+      },
+      {
+        "account": "0x1B921FfF55439b6891aE3EBEB0199189a3CC6496",
+        "pendingReward": "1305558104836317484163"
+      },
+      {
+        "account": "0xb5AB3AdC18C17F52dF4b9CC7E9b48332cfbfb154",
+        "pendingReward": "89605837398"
+      },
+      {
+        "account": "0x3D111220b29E6F0494783CDe07315014d94918ca",
+        "pendingReward": "4304275276088960634665"
+      },
+      {
+        "account": "0xb1692F312e7bF1223F0E23B3704178743cECee9B",
+        "pendingReward": "17855244787002784620454"
+      },
+      {
+        "account": "0xc1D1Cc2aDD1a2aE568080E36655a3cAD4BA101D0",
+        "pendingReward": "2545622762915159726617"
+      },
+      {
+        "account": "0x3BC9a57CF1Cf8114A8980402DCF1081b1D8b599E",
+        "pendingReward": "19485075737"
+      },
+      {
+        "account": "0xf3d0Cb1b3Db63A5f98a0EcB05d0D9F263058B7CB",
+        "pendingReward": "2220997349232766628999"
+      },
+      {
+        "account": "0xB08CD8D53c9463935FaF555a1ee53E847d98a61A",
+        "pendingReward": "88917884848"
+      },
+      {
+        "account": "0x6361c3A0B9Fa229a3C307339ac5dc06151D4E514",
+        "pendingReward": "42433553791"
+      },
+      {
+        "account": "0x408160Ca80aB7B14f2341a16bb09204D3041c54C",
+        "pendingReward": "4215876047510873853"
+      },
+      {
+        "account": "0xCA54fA35A5b545c1564f9373255e29d30192F6e7",
+        "pendingReward": "222731892490866118234"
+      },
+      {
+        "account": "0xEC681126035a6BdBfCD4D058630f2faE3940F216",
+        "pendingReward": "291909521354539633791"
+      },
+      {
+        "account": "0xC234BEaa2633Ee0167CD4850032c84d937B15E4a",
+        "pendingReward": "6715419299966934572671"
+      },
+      {
+        "account": "0x5187cc6280E0C5b70dA8534E623c6aD581518d25",
+        "pendingReward": "379419144558870589598"
+      },
+      {
+        "account": "0x29aA14F36cDe923A85359E514d9A0C966edaB16d",
+        "pendingReward": "9801679902497250156780"
+      },
+      {
+        "account": "0x5eA70abfC8E20Eb662E2569D6a4A62eb9c1ae7c2",
+        "pendingReward": "2223324069523752845863"
+      },
+      {
+        "account": "0x2D803f6C87efFde52244CeccD8FeDeD2d0cFE09C",
+        "pendingReward": "2819366449638088619347"
+      },
+      {
+        "account": "0x2CbE157C8fcEEbe6414f66aBf754023a771c674D",
+        "pendingReward": "2075674176796660982498"
+      },
+      {
+        "account": "0x6C454Ee65a757fB8c7C8f18256a56F17946E3a81",
+        "pendingReward": "791120759861853952703"
+      },
+      {
+        "account": "0xf6b9Cb280Ae3c5dd5eC22D7A1A2A7f5F0a1AE879",
+        "pendingReward": "40416954847"
+      },
+      {
+        "account": "0xC8CE70377A107CD34Cf3B572F9e751b6D9bAEC60",
+        "pendingReward": "19464783973747648913707"
+      },
+      {
+        "account": "0x4A993e7118C16E5EA4fbe7DD3Ff11Eb989c7DF38",
+        "pendingReward": "1135313478184271707524"
+      },
+      {
+        "account": "0x2b7f9e7A4a1A0dbD9E141744266De34726cE9e75",
+        "pendingReward": "64669927878286416774"
+      },
+      {
+        "account": "0xe70d9273FbdE5Bfecc4f9Bc5325de61AC3c6723C",
+        "pendingReward": "18959197091085815251479"
+      },
+      {
+        "account": "0xBa7a27E1c181De4F58686B91487E64182A3411e1",
+        "pendingReward": "9792588195381860127336"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5107,6 +6185,26 @@
       {
         "account": "0x4bB17F45b9A00451383166782c9cD6075Ad5eeb3",
         "pendingReward": "4280965645608303336"
+      },
+      {
+        "account": "0x6101E078F8BEeF80109D2B8c1A86B18f43833f29",
+        "pendingReward": "2265951149224507657"
+      },
+      {
+        "account": "0xFb9b19c5e69125a27ecB9D6f2cf01bF595040B49",
+        "pendingReward": "18246484685539932"
+      },
+      {
+        "account": "0x4CA8ad3a20848aC6F5Dbb14cc02FCe8c037d11DA",
+        "pendingReward": "1149983035"
+      },
+      {
+        "account": "0x06FCe6E22C96dCC4bA01CAEBc72D8Bd7deEC814E",
+        "pendingReward": "1184390621"
+      },
+      {
+        "account": "0x49aDB4c9d2EB4b8D977fF6f1fFb3E34f69215e11",
+        "pendingReward": "13676837786372202332"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5117,6 +6215,22 @@
       {
         "account": "0x5B5E2ad49A990161b1e185F96EeFEB31a3307200",
         "pendingReward": "2074226010"
+      },
+      {
+        "account": "0x82DA1287b3388cc1fA377aE55717e8A3573599F2",
+        "pendingReward": "1334013616"
+      },
+      {
+        "account": "0x99159486C0ECEdb3A1D9e00dA4f5938a2E66f193",
+        "pendingReward": "51607636608081788189"
+      },
+      {
+        "account": "0xA15a91C3FB5304d53f9984d045d1B0e631f1E65C",
+        "pendingReward": "153548451067450462892"
+      },
+      {
+        "account": "0x6dd7F3Bd7bAD81d7E06997B0D4A5446C4C812BA2",
+        "pendingReward": "117313205237654164"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5127,6 +6241,14 @@
       {
         "account": "0xA77cf5Bc03748Ed5688815098A56040904e891b8",
         "pendingReward": "509928201421574324"
+      },
+      {
+        "account": "0x78f31F2D297c5e4f1edD2460E472150a8A16506c",
+        "pendingReward": "3579987079536227445"
+      },
+      {
+        "account": "0xCe9A6a5FcC8177df84B18ccF974f72d19215A2f4",
+        "pendingReward": "26446129050479051"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5217,6 +6339,90 @@
       {
         "account": "0x60D8255e091b14Fe19D4C65c7F479bCA2b7C4840",
         "pendingReward": "68785490871009547104"
+      },
+      {
+        "account": "0x75aACB0AA8c2e95C179c50bD275e1A2D50106DF4",
+        "pendingReward": "39179665567036435678"
+      },
+      {
+        "account": "0x652cBF009076960440D2B83Ca4FA2fC547f567d7",
+        "pendingReward": "541363516545634547"
+      },
+      {
+        "account": "0x32f40198DCB850d814Ad476a3961fB0667Af3133",
+        "pendingReward": "568138441785892257"
+      },
+      {
+        "account": "0x88224D97c9dF67951C289cf2C1AB6140802981e7",
+        "pendingReward": "1006956716361417177"
+      },
+      {
+        "account": "0xeEaFF5116C09ECc20Ab72b53860A7ceAd97F0Ab4",
+        "pendingReward": "97083411407956013502"
+      },
+      {
+        "account": "0x856b63349fB6c818ea7cD7305483Ae0EF6956f6c",
+        "pendingReward": "94737963871114363985"
+      },
+      {
+        "account": "0x577C6bc903e321F8115DFB808F5C48B746E4C11a",
+        "pendingReward": "7728686036300491735789"
+      },
+      {
+        "account": "0x314686cdcfF77C6b7878d3584e34fED3ec76aF50",
+        "pendingReward": "1879113706715042255944"
+      },
+      {
+        "account": "0x9DF5497767464B8fD84A3cB56F9fF0A6A6696576",
+        "pendingReward": "5725248815934132866"
+      },
+      {
+        "account": "0x7f587eA85F829E83900fdB04381e716ad8D49d1b",
+        "pendingReward": "559768817260291"
+      },
+      {
+        "account": "0x795e21A94f511b4e4B7536c1b3A6C0c807748834",
+        "pendingReward": "2728166355388710548"
+      },
+      {
+        "account": "0x4980A87AcB8B33029DF8479b4BC8ddAe1283A548",
+        "pendingReward": "46926371670696086124"
+      },
+      {
+        "account": "0xB029e21E8D8A90C3Fa58987A6Bbf2b0563e5F6AB",
+        "pendingReward": "133434234850383830454"
+      },
+      {
+        "account": "0xAe8DA05852D820fc3A5DfA735aBd134FEF1eDf57",
+        "pendingReward": "37150210019402182346"
+      },
+      {
+        "account": "0x201BE6BFA4794064ff1d9b475bbf0C35526a06B0",
+        "pendingReward": "4188545916495714101"
+      },
+      {
+        "account": "0x509FDf5FE10154b0B667dFD9743eeF2F3091D030",
+        "pendingReward": "4263047792996464216"
+      },
+      {
+        "account": "0x6FeB2698099dEC241D5F640b19F5cc39649B75f2",
+        "pendingReward": "3135823406252438227"
+      },
+      {
+        "account": "0x650Ad4Ea4a730f4281dDfD4c097926acFD823655",
+        "pendingReward": "6895876560170701321"
+      },
+      {
+        "account": "0xb62DAC805df97aB0834356D5D8F0EF6c7fF162D0",
+        "pendingReward": "16458312383130663936"
+      },
+      {
+        "account": "0x6FB4A8e4e2E4Dc86096a352373c9b8047D3BA20e",
+        "pendingReward": "461808067100119176280"
+      },
+      {
+        "account": "0xa851239D07E772d3530601E373D458719ecB6277",
+        "pendingReward": "354738513660031317967"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5239,6 +6445,18 @@
       {
         "account": "0x2178A91850D5103C2b4d6B3971952EcD22f19699",
         "pendingReward": "70103451116777063503"
+      },
+      {
+        "account": "0xBd7137dBa4c5176e09b12F50235A3db13412c5cC",
+        "pendingReward": "311736669494019815893"
+      },
+      {
+        "account": "0x3d47f53C17287E74D7569DDd556dF8883C4bafdf",
+        "pendingReward": "1289350705722707306"
+      },
+      {
+        "account": "0xE5E71D058cd5BD4012B6696c840b2d3D43A33D51",
+        "pendingReward": "51052928934767143669"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5253,6 +6471,10 @@
       {
         "account": "0xE741f716049dE5514E8304B1C666ee2B18F7027E",
         "pendingReward": "83609802437360625071"
+      },
+      {
+        "account": "0x0C358ac0610EEE1298AD312A7B87e04E7e5F7FC0",
+        "pendingReward": "10535713093881730436"
       }
     ],
     "totalRewardForGauge": "0"
@@ -5393,6 +6615,50 @@
       {
         "account": "0xa31aEeA459C1aB0124Ed44711a678d6E18874692",
         "pendingReward": "468771459910916758499"
+      },
+      {
+        "account": "0x39d5DFC3E547b2fF27a5A08A803f1ebC0fb92b6E",
+        "pendingReward": "379028382039440755"
+      },
+      {
+        "account": "0xa5f93095c049798ce1C14F9105532c6E1c43C9e2",
+        "pendingReward": "2405618290127665713612"
+      },
+      {
+        "account": "0xF4421b2D854fD9FE9527AC7C664f5429BC23ECB9",
+        "pendingReward": "1564076054786966123371"
+      },
+      {
+        "account": "0xED8E924735F590572361b52657ABd9A3260F35a0",
+        "pendingReward": "2493695174200562488889"
+      },
+      {
+        "account": "0x9Ee904563a68F26f62cE61a21CA2eF92E80b38B5",
+        "pendingReward": "52183709116844053765"
+      },
+      {
+        "account": "0x80fE788c77D89aE44cAF1e3e85A9549480b451C7",
+        "pendingReward": "38505078522595149483"
+      },
+      {
+        "account": "0x2d56F14F7623fa1Ab587e06a630E82dAa1425631",
+        "pendingReward": "7545392735717775757741"
+      },
+      {
+        "account": "0x4A993e7118C16E5EA4fbe7DD3Ff11Eb989c7DF38",
+        "pendingReward": "2065233881821442696980"
+      },
+      {
+        "account": "0xa680b8EB0929f904D5314311e6e7068F57F9AA22",
+        "pendingReward": "10798332246789679564470"
+      },
+      {
+        "account": "0x8f19964833DBC0c09a1Eba3531d7f7ce7eA82751",
+        "pendingReward": "4673400280461475848469"
+      },
+      {
+        "account": "0x4A68151434A0d30aDB7067f414B968c9c0C19570",
+        "pendingReward": "49424042082502482149"
       }
     ],
     "totalRewardForGauge": "0"

@@ -44,7 +44,7 @@ function main() {
   if (data) {
     const duplicates = checkForDuplicateAddresses(data);
     if (duplicates.length > 0) {
-      console.log("Duplicate addresses found:", duplicates);
+      console.log("Duplicate addresses found:", duplicates.length);
     } else {
       console.log("No duplicate addresses found.");
     }

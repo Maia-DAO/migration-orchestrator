@@ -61,4 +61,12 @@ node prepare_calls.js
 echo "Getting airdrop inputs considering beefy vaults..."
 node prepare_beefy_calls.js
 
+# Step 14: Organize airdrop calls to send to virtual account addresses
+echo "Getting virtual account info..."
+node getVirtualAccounts.js
+
+# Step 15: Sum all airdrop amounts for each token
+echo "Getting totals info..."
+node sumBalancesFromJson.js
+
 echo "Orchestrator process completed successfully."
