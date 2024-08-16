@@ -3,8 +3,7 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const path = require("path");
 const JSBI = require("jsbi");
-const { ethers } = require('ethers');
-
+const { ethers } = require("ethers");
 
 const INPUT_CSV_DIR = "input_csv";
 const OUTPUT_DIR = "consolidated_output";
@@ -39,10 +38,10 @@ async function processCSV(filename, output) {
         const addr = ethers.utils.getAddress(row["0"]);
         const reward = row["1"];
         if (!results[addr]) {
-          results[addr] = { balance: JSBI.BigInt(0) }; // Initialize with a BigInt.
+          results[addr] = { balance: "0" }; // Initialize with a BigInt.
         }
         try {
-          const rewardBigInt = JSBI.BigInt(reward || "0");
+          const rewardBigInt = JSBI.BigInt(reward);
 
           // Check if the address is undefined or not a valid string
           if (typeof addr !== "string" || !addr) {
@@ -54,7 +53,7 @@ async function processCSV(filename, output) {
             results[addr].balance = JSBI.add(
               JSBI.BigInt(results[addr].balance),
               rewardBigInt
-            );
+            ).toString();
           }
         } catch (error) {
           console.error(`Error processing data for address ${addr}:`, error);
@@ -78,7 +77,7 @@ async function processCSV(filename, output) {
     path.join(OUTPUT_DIR, output),
     JSON.stringify(outputData, null, 2)
   );
-  console.log("Data has been consolidated from ", output, ".");
+  console.log("Data has been consolidated from ", output);
 }
 
 // Function to consolidate data

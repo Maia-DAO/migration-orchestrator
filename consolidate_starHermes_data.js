@@ -85,9 +85,13 @@ bribesData.forEach((gauge) => {
     if (!results[addr]) {
       results[addr] = { balance: JSBI.BigInt(0) };
     }
+    if (!results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`]) {
+      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(0);
+    }
     if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
-      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(
-        reward.pendingReward
+      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.add(
+        JSBI.BigInt(results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`]),
+        JSBI.BigInt(reward.pendingReward)
       ).toString();
       results[addr].balance = JSBI.add(
         JSBI.BigInt(results[addr].balance),

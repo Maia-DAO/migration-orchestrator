@@ -6,7 +6,7 @@ const ethers = require("ethers");
 
 const INPUT_JSON_DIR = "input_jsons";
 const OUTPUT_DIR = "consolidated_output";
-const TOKEN_ADDRESS = "0xb27BbeaACA2C00d6258C3118BAB6b5B6975161c8"; // hermes token address
+// const TOKEN_ADDRESS = "0xb27BbeaACA2C00d6258C3118BAB6b5B6975161c8"; // hermes token address
 
 // Try to load existing data from bHermes.json if it exists
 let results = {};

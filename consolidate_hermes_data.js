@@ -18,14 +18,15 @@ const totalsData = JSON.parse(
 const tokenHolders = totalsData[TOKEN_ADDRESS];
 Object.keys(tokenHolders).forEach((addr) => {
   if (!results[addr]) {
-    results[addr] = { balance: JSBI.BigInt(0) };
+    results[addr] = { balance: "0" };
   }
-  if (JSBI.greaterThan(tokenHolders[addr], JSBI.BigInt(0))) {
-    results[addr]["totals.json"] = JSBI.BigInt(tokenHolders[addr]).toString();
+  const balance = JSBI.BigInt(tokenHolders[addr]);
+  if (JSBI.greaterThan(balance, JSBI.BigInt(0))) {
+    results[addr]["totals.json"] = balance.toString();
     results[addr].balance = JSBI.add(
-      results[addr].balance,
-      JSBI.BigInt(tokenHolders[addr])
-    );
+      JSBI.BigInt(results[addr].balance),
+      balance
+    ).toString();
   }
 });
 
@@ -39,16 +40,21 @@ stakedData.forEach((gauge) => {
   gauge.stakes.forEach((stake) => {
     const addr = stake.holderAddress;
     if (!results[addr]) {
-      results[addr] = { balance: JSBI.BigInt(0) };
+      results[addr] = { balance: "0" };
     }
-    if (JSBI.greaterThan(stake.shareOfTargetToken, JSBI.BigInt(0))) {
-      results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(
-        stake.shareOfTargetToken
+    if (!results[addr][`staked_balance_${TOKEN_ADDRESS}.json`]) {
+      results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = "0";
+    }
+    const balance = JSBI.BigInt(stake.shareOfTargetToken);
+    if (JSBI.greaterThan(balance, JSBI.BigInt(0))) {
+      results[addr][`staked_balance_${TOKEN_ADDRESS}.json`] = JSBI.add(
+        JSBI.BigInt(results[addr][`staked_balance_${TOKEN_ADDRESS}.json`]),
+        balance
       ).toString();
       results[addr].balance = JSBI.add(
-        results[addr].balance,
-        JSBI.BigInt(stake.shareOfTargetToken)
-      );
+        JSBI.BigInt(results[addr].balance),
+        balance
+      ).toString();
     }
   });
 });
@@ -61,15 +67,16 @@ rewardsData.forEach((gauge) => {
   gauge.rewards.forEach((reward) => {
     const addr = reward.account;
     if (!results[addr]) {
-      results[addr] = { balance: JSBI.BigInt(0) };
+      results[addr] = { balance: "0" };
     }
-    if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
+    const balance = JSBI.BigInt(reward.pendingReward);
+    if (JSBI.greaterThan(balance, JSBI.BigInt(0))) {
       results[addr][`pending_rewards.json - gauge:${gauge.gauge}`] =
-        JSBI.BigInt(reward.pendingReward).toString();
+        balance.toString();
       results[addr].balance = JSBI.add(
-        results[addr].balance,
-        JSBI.BigInt(reward.pendingReward)
-      );
+        JSBI.BigInt(results[addr].balance),
+        balance
+      ).toString();
     }
   });
 });
@@ -84,16 +91,21 @@ bribesData.forEach((gauge) => {
   gauge.rewards.forEach((reward) => {
     const addr = reward.account;
     if (!results[addr]) {
-      results[addr] = { balance: JSBI.BigInt(0) };
+      results[addr] = { balance: "0" };
     }
-    if (JSBI.greaterThan(reward.pendingReward, JSBI.BigInt(0))) {
-      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.BigInt(
-        reward.pendingReward
+    if (!results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`]) {
+      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = "0";
+    }
+    const balance = JSBI.BigInt(reward.pendingReward);
+    if (JSBI.greaterThan(balance, JSBI.BigInt(0))) {
+      results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`] = JSBI.add(
+        JSBI.BigInt(results[addr][`pending_bribes_${TOKEN_ADDRESS}.json`]),
+        balance
       ).toString();
       results[addr].balance = JSBI.add(
-        results[addr].balance,
-        JSBI.BigInt(reward.pendingReward)
-      );
+        JSBI.BigInt(results[addr].balance),
+        balance
+      ).toString();
     }
   });
 });
@@ -101,7 +113,6 @@ bribesData.forEach((gauge) => {
 // Write the results to a JSON file, converting JSBI BigInts to strings for JSON serialization
 const entries = Object.keys(results).map((key) => ({
   address: key,
-  balance: results[key].balance,
   ...results[key],
 }));
 
