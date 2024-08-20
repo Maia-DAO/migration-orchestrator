@@ -1,7 +1,4 @@
-### README.md
-
-````markdown
-# Project Title: Migration Orchestrator
+# Migration Orchestrator
 
 ## Features
 
@@ -24,8 +21,6 @@ Before you can run this project, you need to ensure you have the following insta
    git clone https://github.com/Maia-DAO/migration-orchestrator.git
    cd migration-orchestrator
    ```
-````
-
 2. **Install dependencies:**
    ```bash
    npm install
